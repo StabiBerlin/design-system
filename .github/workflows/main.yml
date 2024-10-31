@@ -1,0 +1,21 @@
+name: Generate CSS from tokens with Style Dictionary
+
+on: [push]
+
+jobs:
+  generate_css:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Debug
+        run: echo "${{ github.workspace }} -- ${{ github.repository }}"
+      - name: Print Node.js version
+        run: node -v 
+      - name: Install dependencies
+        run: npm init -y && npm install style-dictionary
+      - name: Build Style Dictionary
+        run: npx style-dictionary build
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update Style Dictionary build output
+          file_pattern: 'build/css/*.css'
