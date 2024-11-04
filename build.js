@@ -20,6 +20,17 @@ const sd = new StyleDictionary({
         },
       ],
     },
+    scss: {
+      transformGroup: 'scss',
+      transforms: ['name/kebab'],
+      buildPath: 'build/',
+      files: [
+        {
+          destination: 'variables.scss',
+          format: 'scss/variables',
+        }
+      ]
+    },
   },
   log: {
     verbosity: 'verbose'
