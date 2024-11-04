@@ -12,10 +12,10 @@ jobs:
       - name: Print Node.js version
         run: node -v 
       - name: Install dependencies
-        run: npm init -y && npm install style-dictionary
-      - name: Build Style Dictionary
-        run: npx style-dictionary build
+        run: npm install style-dictionary @tokens-studio/sd-transforms
+      - name: Build output files with Style Dictionary
+        run: node build.js
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Update Style Dictionary build output
-          file_pattern: 'build/css/*.css'
+          file_pattern: 'build/*.*css'
