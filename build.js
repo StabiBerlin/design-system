@@ -12,7 +12,7 @@ const sd = new StyleDictionary({
     css: {
       transformGroup: 'tokens-studio',
       transforms: ['name/kebab'],
-      buildPath: 'build/css/',
+      buildPath: 'build/',
       files: [
         {
           destination: 'variables.css',
