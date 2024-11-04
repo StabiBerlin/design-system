@@ -1,0 +1,377 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --size-10: 1px;
+  --size-20: 2px;
+  --size-30: 4px;
+  --size-40: 6px;
+  --size-50: 8px;
+  --size-60: 12px;
+  --size-70: 16px;
+  --size-80: 20px;
+  --size-90: 24px;
+  --size-100: 32px;
+  --size-110: 40px;
+  --size-120: 48px;
+  --size-130: 64px;
+  --size-140: 96px;
+  --size-150: 128px;
+  --size-160: 256px;
+  --size-170: 512px;
+  --size-00: 0px;
+  --size-3xs: 2px; /* Minimale Größe für feine visuelle Elemente, z.B. sehr schmale Linien oder Trennungen. */
+  --size-2xs: 4px; /* Kleine Elemente, die in enger Umgebung verwendet werden, wie etwa winzige Icons oder Abstandshalter */
+  --size-xs: 6px; /* Für kleinere UI-Elemente wie kleine Icons, Symbole oder sehr enge Layouts geeignet. */
+  --size-sm: 8px; /* für kleinere Interaktionsflächen wie kleine Buttons oder Icons */
+  --size-md: 12px; /* Geeignet für kleinere Komponenten wie kleine Buttons, Avatare oder Thumbnails. */
+  --size-lg: 16px; /* Häufig verwendete Standardgröße für mittlere Buttons oder kleine Karten, analog zu Bootstrap's Standardkomponenten. */
+  --size-xl: 20px; /* Ideal für Komponenten, die etwas größer als Standard sein sollen, wie etwa größere Icons oder etwas breitere Buttons */
+  --size-2xl: 24px; /* Nutze diese Größe für größere Icons, Avatare oder kleine Karten-Layouts, die eine prominente Rolle im Layout spielen. */
+  --size-3xl: 32px; /* Passend für Hauptkomponenten wie große Buttons oder mittlere Bildbereiche (z.B. Avatare, Thumbnails). */
+  --size-4xl: 40px; /* Für größere UI-Komponenten wie Cards oder größere Schaltflächen, die im Layout auffallen sollen. */
+  --size-5xl: 48px; /* Geeignet für besonders auffällige Elemente wie hervorgehobene Call-to-Action-Buttons oder prominentere Avatar-Größen. */
+  --size-6xl: 64px; /* Verwendung für größere Bilder, wie z.B. in Cards oder Grid-Layouts, oder große Buttons, die sich klar abheben sollen. */
+  --size-7xl: 96px; /* Für besonders markante visuelle Elemente wie große Avatare, Bannerbilder oder bedeutende Grid-Komponenten. */
+  --size-8xl: 128px; /* Eignet sich für Sektionen oder größere Container, die große visuelle Elemente wie Hero-Banner enthalten. */
+  --size-9xl: 256px; /* Verwendung für besonders große Bereiche wie Hero-Header oder ganzseitige Layout-Elemente. */
+  --size-none: 0px; /* Kein Platzbedarf, oft für verborgene oder sehr kompakte Elemente wie versteckte Layout-Elemente. */
+  --size-10xl: 512px;
+  --size-4xs: 1px; /* Minimale Größe für feine visuelle Elemente, z.B. sehr schmale Linien oder Trennungen. */
+  --border-radius-10: 4px;
+  --border-radius-20: 8px;
+  --border-radius-30: 16px;
+  --colors-black: #000000;
+  --colors-white: #ffffff;
+  --colors-neutral-10: #f8fafc;
+  --colors-neutral-20: #f1f5f9;
+  --colors-neutral-30: #e2e8f0;
+  --colors-neutral-40: #cbd5e1;
+  --colors-neutral-50: #94a3b8;
+  --colors-neutral-60: #64748b;
+  --colors-neutral-70: #475569;
+  --colors-neutral-80: #334155;
+  --colors-neutral-90: #1e293b;
+  --colors-neutral-100: #0f172a;
+  --colors-neutral-110: #020617;
+  --colors-prblue-10: #dce1ef;
+  --colors-prblue-20: #ced5e9;
+  --colors-prblue-30: #b1bcdd;
+  --colors-prblue-40: #95a4d0;
+  --colors-prblue-50: #798cc3;
+  --colors-prblue-60: #5c73b7;
+  --colors-prblue-70: #485fa3;
+  --colors-prblue-80: #3c4f86;
+  --colors-prblue-90: #2f3e6a;
+  --colors-prblue-100: #1e2743;
+  --colors-prblue-110: #151c30;
+  --colors-amaranth-10: #fce7ef;
+  --colors-amaranth-20: #fbdae6;
+  --colors-amaranth-30: #f7bed3;
+  --colors-amaranth-40: #f4a3c1;
+  --colors-amaranth-50: #f188ae;
+  --colors-amaranth-60: #ee6c9b;
+  --colors-amaranth-70: #ea5189;
+  --colors-amaranth-80: #e73676;
+  --colors-amaranth-90: #e31b64;
+  --colors-amaranth-100: #b1154e;
+  --colors-amaranth-110: #981243;
+  --colors-success-10: #f7fdf6;
+  --colors-success-20: #e8fae5;
+  --colors-success-30: #caf3c3;
+  --colors-success-40: #aceca1;
+  --colors-success-50: #8fe57f;
+  --colors-success-60: #71df5d;
+  --colors-success-70: #53d83b;
+  --colors-success-80: #3fc327;
+  --colors-success-90: #34a120;
+  --colors-success-100: #257217;
+  --colors-success-110: #1d5b12;
+  --colors-error-10: #ffe7e7;
+  --colors-error-20: #ffdbdb;
+  --colors-error-30: #ffc1c1;
+  --colors-error-40: #ffa8a8;
+  --colors-error-50: #ff8e8e;
+  --colors-error-60: #ff7474;
+  --colors-error-70: #ff5b5b;
+  --colors-error-80: #ff4242;
+  --colors-error-90: #ff2828;
+  --colors-error-100: #ef0000;
+  --colors-error-110: #d30000;
+  --colors-warning-10: #fef2e5;
+  --colors-warning-20: #fdedd8;
+  --colors-warning-30: #fce1c0;
+  --colors-warning-40: #fbd6a8;
+  --colors-warning-50: #faca8f;
+  --colors-warning-60: #f8bf77;
+  --colors-warning-70: #f7b35f;
+  --colors-warning-80: #f6a846;
+  --colors-warning-90: #f59c2e;
+  --colors-warning-100: #e0810b;
+  --colors-warning-110: #c57109;
+  --colors-badges-10: #72ddc3;
+  --colors-badges-20: #ffa981;
+  --colors-badges-30: #ff9eb7;
+  --colors-badges-40: #93e088;
+  --colors-badges-50: #ffd66e;
+  --colors-badges-60: #cdb0ff;
+  --colors-badges-70: #9cc7ff;
+  --opacity-low: 0.1;
+  --opacity-md: 0.5;
+  --opacity-high: 0.9;
+  --font-families-default: 'Noto Sans';
+  --font-families-icons: 'Font Awesome 6 Sharp';
+  --letter-spacing-default: 0;
+  --letter-spacing-increased: 1.5em;
+  --letter-spacing-decreased: -0.05em;
+  --font-weights-10: 400;
+  --font-weights-20: 500;
+  --font-weights-30: 600;
+  --font-weights-40: 700;
+  --font-weights-50: 800;
+  --font-weights-60: 900;
+  --font-sizes-10: 0.75rem;
+  --font-sizes-20: 0.875 rem;
+  --font-sizes-30: 1 rem;
+  --font-sizes-40: 1.125 rem;
+  --font-sizes-50: 1.25 rem;
+  --font-sizes-60: 1.5 rem;
+  --font-sizes-70: 1.75 rem;
+  --font-sizes-80: 2 rem;
+  --font-sizes-90: 3 rem;
+  --font-sizes-100: 4 rem;
+  --icon-x: fa-solid fa-xmark; /* Löschen (Auswahlfeld) & Schließen */
+  --icon-magnifyingglass: fa-solid fa-magnifying-glass; /* Icon für Suchleisten */
+  --icon-question: fa-solid fa-circle-question; /* Hilfe */
+  --icon-user: fa-solid fa-user; /* Persönliche Daten */
+  --icon-squarecheck: fa-regular fa-square-check; /* ausgewählte Option */
+  --icon-caretdown: fa-solid fa-caret-down; /* Öffnen eines Menüs */
+  --icon-angledown: fa-solid fa-angle-down; /* mehr anzeigen */
+  --icon-angleleft: fa-solid fa-angle-left; /* vorherige Seite */
+  --icon-angleright: fa-solid fa-angle-right; /* nächste Seite */
+  --icon-angleup: fa-solid fa-angle-up; /* weniger anzeigen */
+  --icon-video: fa-light fa-video; /* Medientyp Projektion */
+  --icon-volume: fa-light fa-volume; /* Medientyp Tonaufnahme */
+  --icon-login: fa-solid fa-arrow-right-to-bracket; /* Login */
+  --icon-logout: fa-solid fa-arrow-left-to-bracket; /* Logout */
+  --icon-externlink: fa-solid fa-arrow-up-right-from-square; /* externer */
+  --icon-bookbookmark: fa-solid fa-book-bookmark; /* Bestellungen */
+  --icon-bookmarkoff: fa-regular fa-bookmark; /* auf Merkliste setzen */
+  --icon-bookmarkon: fa-solid fa-bookmark; /* auf Merkliste gesetzt */
+  --icon-openbook: fa-light fa-book-open-cover; /* Medientyp Buch */
+  --icon-bookopenfilled: fa-solid fa-book-open; /* Ausgeliehene Medien */
+  --icon-booksduotone: fa-duotone fa-solid fa-books; /* Medientyp Band einer Schriftenreihe */
+  --icon-bookssolid: fa-light fa-books; /* Medientyp Schriftenreihe */
+  --icon-archivebox: fa-light fa-box-archive; /* Medientyp Gemischte Materialien (Stabikat), Typ: Archive (ISIL) */
+  --icon-bug: fa-light fa-bug; /* Bug melden */
+  --icon-moviecamera: fa-light fa-camera-movie; /* Medientyp Film */
+  --icon-info: fa-solid fa-circle-info; /* Information */
+  --icon-cd: fa-light fa-compact-disc; /* Medientyp Datenträger */
+  --icon-crystalball: fa-light fa-crystal-ball; /* Medientyp Unbekannt */
+  --icon-database: fa-solid fa-database; /* Medientyp Datenbank */
+  --icon-dice: fa-light fa-dice; /* Medientyp Spiel */
+  --icon-download: fa-solid fa-download; /* Download */
+  --icon-mail: fa-solid fa-envelope; /* E-Mail Adresse */
+  --icon-eurosign: fa-solid fa-euro-sign; /* Gebühren */
+  --icon-eye: fa-light fa-eye; /* Anzeigen (Passwort) */
+  --icon-documentlines: fa-light fa-file-lines; /* Medientyp Aufsatz gedruckt */
+  --icon-files: fa-light fa-files; /* Medientyp E-Journal */
+  --icon-filmcanister: fa-light fa-film-canister; /* Medientyp Mikroform */
+  --icon-image: fa-light fa-image; /* Medientyp Bild */
+  --icon-laptopfile: fa-light fa-laptop-file; /* Medientyp Aufsatz online */
+  --icon-permalink: fa-solid fa-link; /* Permalink */
+  --icon-musiclist: fa-light fa-list-music; /* Medientyp Musikalien */
+  --icon-map: fa-light fa-map; /* Medientyp Karte */
+  --icon-darkmode: fa-regular fa-moon-stars; /* Dark Mode */
+  --icon-newspaper: fa-light fa-newspaper; /* Medientyp Zeitung */
+  --icon-pennib: fa-light fa-pen-nib; /* Medientyp Handschrift */
+  --icon-plus: fa-solid fa-plus; /* Liste erstellen */
+  --icon-printer: fa-solid fa-print; /* Drucken */
+  --icon-quote: fa-solid fa-quote-right; /* Zitieren */
+  --icon-square: fa-regular fa-square; /* checkbox unchecked */
+  --icon-staroff: fa-regular fa-star; /* Favorisieren Off */
+  --icon-staron: fa-solid fa-star; /* Favorisieren On */
+  --icon-sun: fa-regular fa-sun-bright; /* Light Mode */
+  --icon-ebook: fa-light fa-tablet; /* Medientyp E-Book */
+  --icon-trash: fa-regular fa-trash; /* Löschen (Filter) */
+  --icon-triangleexclamation: fa-solid fa-triangle-exclamation; /* Warnmeldung Konto */
+  --icon-lock: fa-solid fa-lock; /* Passwort ändern */
+  --icon-id: fa-solid fa-id-card; /* Ausweis verlängern */
+  --icon-bookreader: fa-solid fa-book-open-reader; /* einfache Sprache */
+  --icon-usercircle: fa-solid fa-circle-user; /* Bibliothekskonto */
+  --icon-hands: fa-solid fa-hands; /* Gebärdensprache */
+  --icon-globe: fa-solid fa-globe; /* Spracheinstellungen */
+  --icon-arrow: fa-solid fa-arrow-right; /* Icon für Links, aber nicht in Texten sonder für Navigationselemente */
+  --icon-copy: fa-solid fa-copy; /* Kopieren */
+  --icon-users: fa-solid fa-users; /* Forum (XAsia) */
+  --icon-buildingcolumns: fa-solid fa-building-columns; /* Partnerinstitutionen (Xasia),  Typ: Museen (ISIL) */
+  --icon-rss: fa-solid fa-rss; /* Blogbeiträge, RSS abonnieren */
+  --icon-facebook-logo: fa-brands fa-facebook; /* Facebook Konto */
+  --icon-instagram-logo: fa-brands fa-instagram; /* Instagram Konto */
+  --icon-youtube-logo: fa-brands fa-youtube; /* Youtube Logo */
+  --icon-mastodon-logo: fa-brands fa-mastodon; /* Mastodon Logo */
+  --icon-xtwitter-logo: fa-brands fa-x-twitter; /* X-Twitter Logo */
+  --icon-calendar: fa-solid fa-calendar-days; /* Kalendar Widget (Xasia) */
+  --icon-gear: fa-solid fa-gear; /* Einstellungen */
+  --icon-filepen: fa-solid fa-file-pen; /* Edit, Änderung an bestehender ISIL vornehmen */
+  --icon-locationdot: fa-solid fa-location-dot; /* Standort hinzufügen (ISIL) */
+  --icon-phone: fa-solid fa-phone; /* Telefonnummern */
+  --icon-fax: fa-solid fa-fax; /* Faxnummer */
+  --icon-squareedit: fa-solid fa-pen-to-square; /* Editieren, Änderungen vornehmen */
+  --icon-books: fa-solid fa-books; /* Typ: Bibliotheken (ISIL) */
+  --icon-housebuilding: fa-solid fa-house-building; /* Typ: Sonstige Einrichtungen (ISIL) */
+  --icon-computerdisplay: fa-solid fa-display; /* Typ: E-Ressourcen (ISIL) */
+  --icon-locationxmark: fa-solid fa-location-xmark; /* Typ: Aufgelöste Einrichtung (ISIL) */
+  --icon-archivesolid: fa-solid fa-box-archive;
+  --icon-youtube: fa-brands fa-youtube; /* Youtube Konto */
+  --icon-mastodon: fa-brands fa-mastodon; /* Mastodon Konto */
+  --icon-x-twitter: fa-brands fa-x-twitter; /* X/Twitter Konto */
+  --icon-instagram: fa-brands fa-instagram; /* Instagram Konto */
+  --icon-facebook: fa-brands fa-facebook; /* Facebook Konto */
+  --icon-add-button: fa-solid fa-plus; /* Add, Hinzufügen, Liste erstellen */
+  --icon-settings: fa-solid fa-gear; /* Einstellungen Xasia */
+  --icon-email-adress: fa-solid fa-envelope; /* E-Mail Adresse */
+  --icon-download-button: fa-solid fa-download; /* Download Button */
+  --icon-login-button: fa-solid fa-arrow-right-to-bracket; /* Login */
+  --icon-next-page: fa-solid fa-angle-right; /* nächste Seite */
+  --icon-print: fa-solid fa-print; /* Drucken */
+  --icon-prev-page: fa-solid fa-angle-left; /* vorherige Seite */
+  --icon-show-less: fa-solid fa-angle-up; /* Show Less / Weniger Anzeigen */
+  --icon-show-more: fa-solid fa-angle-down; /* Show More  / Mehr anzeigen */
+  --icon-logout-button: fa-solid fa-arrow-left-to-bracket; /* Logout */
+  --icon-close-button: fa-solid fa-xmark; /* Schließen Kreuz */
+  --icon-search: fa-solid fa-magnifying-glass; /* Icon für Suchleisten */
+  --icon-help: fa-solid fa-circle-question; /* Hilfe-Dokumente oä für einen Service */
+  --icon-stabikat-personal-infos: fa-solid fa-user; /* Persönliche Daten */
+  --icon-stabikat-checkbox-on: fa-regular fa-square-check; /* ausgewählte Option */
+  --icon-stabikat-media-projection: fa-light fa-video; /* Medientyp Projektion */
+  --icon-stabikat-media-sound: fa-light fa-volume; /* Medientyp Tonaufnahme */
+  --icon-stabikat-ext-link: fa-solid fa-arrow-up-right-from-square; /* externe Verlinkung */
+  --icon-stabikat-orders: fa-solid fa-book-bookmark; /* Bestellungen */
+  --icon-stabikat-bookmark-off: fa-regular fa-bookmark; /* Lesezeichen - Off */
+  --icon-stabikat-bookmark-on: fa-solid fa-bookmark; /* Lesezeichen - On */
+  --icon-stabikat-media-book: fa-light fa-book-open-cover; /* Medientyp Buch */
+  --icon-stabikat-borrowed-items: fa-solid fa-book-open; /* Ausgeliehene Medien */
+  --icon-stabikat-media-publication-volume: fa-duotone fa-solid fa-books; /* Medientyp Band einer Schriftenreihe */
+  --icon-stabikat-media-publications-series: fa-light fa-books; /* Medientyp Schriftenreihe */
+  --icon-stabikat-media-mixed: fa-light fa-box-archive; /* Medientyp Gemischte Materialien  */
+  --icon-stabikat-report-bug: fa-light fa-bug; /* Bug melden */
+  --icon-stabikat-media-movie: fa-light fa-camera-movie; /* Medientyp Film */
+  --icon-stabikat-cover-source: fa-solid fa-circle-info; /* Externe Ressource für Buchcover */
+  --icon-stabikat-media-disk: fa-light fa-compact-disc; /* Medientyp Datenträger */
+  --icon-stabikat-media-unknown: fa-light fa-crystal-ball; /* Medientyp Unbekannt */
+  --icon-stabikat-media-database: fa-solid fa-database; /* Medientyp Datenbank */
+  --icon-stabikat-media-game: fa-light fa-dice; /* Medientyp Spiel */
+  --icon-stabikat-fees: fa-solid fa-euro-sign; /* Gebühren */
+  --icon-stabikat-show-password: fa-light fa-eye; /* Passwort anzeigen */
+  --icon-stabikat-media-essay: fa-light fa-file-lines; /* Medientyp Aufsatz gedruckt */
+  --icon-stabikat-media-ejournal: fa-light fa-files; /* Medientyp E-Journal */
+  --icon-stabikat-media-microform: fa-light fa-film-canister; /* Medientyp Mikroform */
+  --icon-stabikat-media-image: fa-light fa-image; /* Medientyp Bild */
+  --icon-stabikat-media-online-essay: fa-light fa-laptop-file; /* Medientyp Aufsatz online */
+  --icon-stabikat-permalink: fa-solid fa-link; /* Permalink */
+  --icon-stabikat-media-musicals: fa-light fa-list-music; /* Medientyp Musikalien */
+  --icon-stabikat-media-map: fa-light fa-map; /* Medientyp Karte */
+  --icon-stabikat-dark-mode: fa-regular fa-moon-stars; /* Dark Mode */
+  --icon-stabikat-media-newspaper: fa-light fa-newspaper; /* Medientyp Zeitung */
+  --icon-stabikat-media-manuscript: fa-light fa-pen-nib; /* Medientyp Handschrift */
+  --icon-stabikat-checkbox-off: fa-regular fa-square; /* Checkbox - Off */
+  --icon-stabikat-quote: fa-solid fa-quote-right; /* Zitieren */
+  --icon-stabikat-favorite-off: fa-regular fa-star; /* Favorisieren - Off */
+  --icon-stabikat-favorite-on: fa-solid fa-star; /* Favorisieren - On */
+  --icon-stabikat-light-mode: fa-regular fa-sun-bright; /* Light Mode */
+  --icon-stabikat-media-ebook: fa-light fa-tablet; /* Medientyp E-Book */
+  --icon-stabikat-delete: fa-regular fa-trash; /* Löschen (Filter) */
+  --icon-stabikat-warning: fa-solid fa-triangle-exclamation; /* Warnmeldung Konto */
+  --icon-stabikat-change-password: fa-solid fa-lock; /* Passwort ändern */
+  --icon-stabikat-extend-id: fa-solid fa-id-card; /* Ausweis verlängern */
+  --icon-plain-lang: fa-solid fa-book-open-reader; /* einfache Sprache */
+  --icon-sign-lang: fa-solid fa-hands; /* Gebärdensprache */
+  --icon-library-acc: fa-solid fa-circle-user; /* Bibliothekskonto */
+  --icon-lang-settings: fa-solid fa-globe; /* Spracheinstellungen */
+  --icon-arrow-link: fa-solid fa-arrow-right; /* Icon für Links (Navigationselemente) */
+  --icon-copy-button: fa-solid fa-copy; /* Kopieren */
+  --icon-isil-museums: fa-solid fa-building-columns; /* Museen (ISIL) */
+  --icon-isil-edit-isil: fa-solid fa-file-pen; /* Edit, Änderung an bestehender ISIL vornehmen */
+  --icon-isil-add-location: fa-solid fa-location-dot; /* Standort hinzufügen (ISIL) */
+  --icon-isil-phone-number: fa-solid fa-phone; /* Telefonnummern */
+  --icon-isil-edit-entry: fa-solid fa-pen-to-square; /* Editieren, Änderungen vornehmen */
+  --icon-isil-fax-number: fa-solid fa-fax; /* Faxnummer */
+  --icon-isil-type-library: fa-solid fa-books; /* Typ: Bibliotheken (ISIL) */
+  --icon-isil-type-misc: fa-solid fa-house-building; /* Typ: Sonstige Einrichtungen (ISIL) */
+  --icon-isil-type-eressources: fa-solid fa-display; /* Typ: E-Ressourcen (ISIL) */
+  --icon-isil-type-dissolved: fa-solid fa-location-xmark; /* Typ: Aufgelöste Einrichtung (ISIL) */
+  --icon-isil-type-archive: fa-solid fa-box-archive; /* Typ: Archiv (ISIL) */
+  --icon-xasia-partner-institutions: fa-solid fa-building-columns; /* Partnerinstitutionen */
+  --icon-xasia-blog: fa-solid fa-rss; /* Blogbeiträge, RSS abonnieren */
+  --icon-xasia-calendar-widget: fa-solid fa-calendar-days; /* Kalendar Widget (Xasia) */
+  --line-heights-10: 1.25;
+  --line-heights-20: 1.5;
+  --line-heights-30: 1.75;
+  --breakpoint-10: 0px;
+  --breakpoint-20: 576px;
+  --breakpoint-30: 768px;
+  --breakpoint-40: 992px;
+  --breakpoint-50: 1200px;
+  --breakpoint-60: 1400px;
+  --color-text-subtle: #64748b; /* optionale Inhalte */
+  --color-text-base: #475569; /* Hauptinhalt und Überschriften */
+  --color-text-strong: #334155; /* Überschriften und fokussierte Inhalte */
+  --color-text-heavy: #1e293b; /* Überschriften */
+  --color-background-base: #ffffff; /* Standard Hintergrundfarbe */
+  --color-background-subtle: #f8fafc; /* Hintergrund um Elemente hervozuheben */
+  --color-stroke-base: #cbd5e1; /* Divider */
+  --color-stroke-strong: #64748b; /* Divider um erste Reihe abzugrenzen */
+  --color-stroke-subtle: #e2e8f0; /* subtiler Divider */
+  --color-interactive-subtle: #dce1ef; /* Interaktionsfarbe - subtiler Hintergrund */
+  --color-interactive-base: #3c4f86; /* Interaktionsfarbe - Default */
+  --color-interactive-strong: #2f3e6a; /* Interaktionsfarbe - Hover */
+  --color-interactive-heavy: #1e2743; /* Interaktionsfarbe - active */
+  --color-feedback-sucess-subtle: #f7fdf6; /* Erfolg - subtiler Hintergrund */
+  --color-feedback-sucess-base: #3fc327; /* Erfolg - Default */
+  --color-feedback-danger-subtle: #ffe7e7; /* Gefahr - subtiler Hintergrund */
+  --color-feedback-danger-base: #ff4242; /* Gefahr - Default */
+  --color-feedback-warning-subtle: #fef2e5; /* Warnung - subtiler Hintergrund */
+  --color-feedback-warning-base: #f6a846; /* Warnung - Default */
+  --space-none: 0px; /* No Spacing (keine Abstände, für eng aneinander liegende UI-Elemente) */
+  --space-3xs: 2px; /* Hairline Margin (sehr feine Abstände, fast unsichtbare Trennung, z.B. für minimalistische Designs) */
+  --space-2xs: 4px; /* Micro Padding (kleinste Füllung innerhalb eines Elements, für minimalen Puffer) */
+  --space-xs: 6px; /* Tight Grouping (sehr enger Abstand zwischen Elementen, die visuell eng zusammengehören) */
+  --space-sm: 8px; /* Micro Interaction (kleine, häufig verwendete Abstände, z.B. zwischen Text und einem Symbol) */
+  --space-md: 12px; /* Minor Padding (leichte Füllung oder Abstand innerhalb von Komponenten, für etwas mehr Platz) */
+  --space-lg: 16px; /* Compact Layout (etwas mehr Platz für kompakte Abschnitte, z.B. für Dashboard-Kacheln) */
+  --space-xl: 20px; /* Element Boundaries (Abstand zwischen verwandten Elementen, wie zwischen Text und einem Formularfeld) */
+  --space-2xl: 24px; /* Group Padding (moderate Abstände innerhalb von UI-Gruppen, z.B. innerhalb eines Modals) */
+  --space-3xl: 32px; /* Component Padding (Abstände innerhalb oder zwischen größeren Komponenten oder Content-Blöcken) */
+  --space-4xl: 40px; /* Major Padding (große Füllung in Elementen, wie in Card-Layouts oder größeren Interaktionsbereichen) */
+  --space-5xl: 48px; /* Component Separation (größere Abstände, um UI-Komponenten klar voneinander abzugrenzen) */
+  --space-6xl: 64px; /* Section Margins (Abstände zwischen Hauptsektionen, z.B. zwischen Header und Content-Bereich) */
+  --space-7xl: 96px; /* Layout Divider (sehr große Abstände für Layout-Wechsel oder klar getrennte Content-Blöcke) */
+  --space-8xl: 128px; /* Viewport Padding (große Abstände, z.B. für Seitenränder oder großformatige Überschriften) */
+  --space-9xl: 256px; /* Hero Section Spacing (riesige Abstände für übergreifende Layouts oder spezielle Bereiche wie Hero-Banner) */
+  --fontfamily-default: 16px 'Noto Sans'; /* Noto Sans */
+  --fontweight-regular: 400 16px sans-serif; /* Fließtext oder längere Textabschnitte, die gut lesbar und nicht zu schwer wirken sollen. */
+  --fontweight-medium: 500 16px sans-serif; /* für Zwischenüberschriften, Labels oder wichtige Textpassagen, die etwas mehr Gewicht als der Standard-Fließtext benötigen */
+  --fontweight-semibold: 600 16px sans-serif; /* Button-Labels oder UI-Elemente, die hervorgehoben, aber nicht dominant sein sollen */
+  --fontweight-bold: 700 16px sans-serif; /* Hauptüberschriften oder besonders wichtige Inhalte, die sich stark vom restlichen Text abheben sollen */
+  --fontweight-extrabold: 800 16px sans-serif; /* markante Titel oder Highlights, die maximale Aufmerksamkeit benötigen */
+  --fontweight-black: 900 16px sans-serif; /* Verwende sparsam für starke visuelle Akzente, z.B. für Hero-Banner-Titel oder besonders hervorstechende Key Visuals */
+  --lineheight-tight: 16px/1.25 sans-serif; /* Verwende für Überschriften oder kurze Textelemente, bei denen der Text kompakt und dicht wirken soll, um den Platz effizient zu nutzen. */
+  --lineheight-normal: 16px/1.5 sans-serif; /* für Fließtext oder längere Absätze, um eine gute Lesbarkeit und klare Zeilenabstände zu gewährleisten, ohne zu viel Platz zu verbrauchen. */
+  --lineheight-loose: 16px/1.75 sans-serif; /* für großformatige Texte, wie in Hero-Bannern oder Infografiken, bei denen eine offene, luftige Gestaltung gewünscht ist. */
+  --fontsize-xs: 0.875 rem sans-serif; /* 14px - für kleinere Textelemente, wie Labels, Hilfetexte oder sekundäre Informationen, die nicht zu dominant wirken sollen */
+  --fontsize-base: 1 rem sans-serif; /* 16px - Standardgröße, wird für die meisten Textabschnitte verwendet und bietet gute Lesbarkeit auf verschiedenen Geräten. */
+  --fontsize-sm: 1.125 rem sans-serif; /* 18px - leicht hervorgehobenen Text, z.B. in Abschnittsüberschriften/Subtitles, die etwas mehr Gewicht als Fließtext haben sollen */
+  --fontsize-md: 1.25 rem sans-serif; /* 20px - Geeignet für kleinere Überschriften oder Call-to-Action-Texte, die mehr Aufmerksamkeit als normaler Text erfordern */
+  --fontsize-lg: 1.5 rem sans-serif; /* 24px - Verwende für mittlere Überschriften oder wichtige Textabschnitte, die sich klar vom Fließtext abheben sollen */
+  --fontsize-xl: 1.75 rem sans-serif; /* 28px - Nutze für Hauptüberschriften oder größere UI-Komponenten, die gut sichtbar, aber nicht dominant sein sollen */
+  --fontsize-2xl: 2 rem sans-serif; /* 32px - für markante Überschriften in wichtigen Bereichen wie Startseiten, Hero-Bannern oder zentralen UI-Elementen */
+  --fontsize-3xl: 3 rem sans-serif; /* 48px - für sehr große Überschriften oder markante Textelemente, die maximale Aufmerksamkeit benötigen */
+  --fontsize-4xl: 4 rem sans-serif; /* 64px - für herausragende Überschriften in Hero-Bannern oder prominenten Titelseiten, */
+  --fontsize-2xs: 0.75rem sans-serif; /* 12px - selten Verwendung in informationsreichen Interfaces für z.B. Fußnoten, Hinweise oder weniger prominente Labels */
+  --breakpoints-mobile: 576px; /* Breakpoint, der für mobile Geräte mit kleinen Bildschirmen verwendet wird, basierend auf dem sm-Breakpoint. */
+  --breakpoints-tablet: 768px; /* Breakpoint für Tablets oder ähnliche Geräte, basierend auf dem md-Breakpoint. */
+  --breakpoints-desktop: 992px; /* Breakpoint für Standard-Desktop-Ansichten, basierend auf dem lg-Breakpoint. */
+  --breakpoints-large-desktop: 1400px; /* Breakpoint für große Desktops und Monitore, basierend auf dem xl-Breakpoint. */
+}
