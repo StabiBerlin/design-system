@@ -337,8 +337,8 @@ $color-feedback-danger-base: #ff4242; // Gefahr - Default
 $color-feedback-warning-subtle: #fef2e5; // Warnung - subtiler Hintergrund
 $color-feedback-warning-base: #f6a846; // Warnung - Default
 $distance-zero: 0px; // No Spacing (keine Abstände, für eng aneinander liegende UI-Elemente)
-$distance-tight: 2px; // Hairline Margin (sehr feine Abstände, fast unsichtbare Trennung, z.B. für minimalistische Designs)
-$distance-tiny: 4px; // Micro Padding (kleinste Füllung innerhalb eines Elements, für minimalen Puffer)
+$distance-ultra-small: 2px; // Hairline Margin (sehr feine Abstände, fast unsichtbare Trennung, z.B. für minimalistische Designs)
+$distance-extra-small: 4px; // Micro Padding (kleinste Füllung innerhalb eines Elements, für minimalen Puffer)
 $distance-small: 6px; // Tight Grouping (sehr enger Abstand zwischen Elementen, die visuell eng zusammengehören)
 $distance-compact: 8px; // Micro Interaction (kleine, häufig verwendete Abstände, z.B. zwischen Text und einem Symbol)
 $distance-medium: 12px; // Minor Padding (leichte Füllung oder Abstand innerhalb von Komponenten, für etwas mehr Platz)
