@@ -21,24 +21,24 @@
   --size-160: 256px;
   --size-170: 512px;
   --size-00: 0px;
-  --size-3xs: 2px; /* Minimale Größe für feine visuelle Elemente, z.B. sehr schmale Linien oder Trennungen. */
-  --size-2xs: 4px; /* Kleine Elemente, die in enger Umgebung verwendet werden, wie etwa winzige Icons oder Abstandshalter */
-  --size-xs: 6px; /* Für kleinere UI-Elemente wie kleine Icons, Symbole oder sehr enge Layouts geeignet. */
-  --size-sm: 8px; /* für kleinere Interaktionsflächen wie kleine Buttons oder Icons */
-  --size-md: 12px; /* Geeignet für kleinere Komponenten wie kleine Buttons, Avatare oder Thumbnails. */
-  --size-lg: 16px; /* Häufig verwendete Standardgröße für mittlere Buttons oder kleine Karten, analog zu Bootstrap's Standardkomponenten. */
-  --size-xl: 20px; /* Ideal für Komponenten, die etwas größer als Standard sein sollen, wie etwa größere Icons oder etwas breitere Buttons */
-  --size-2xl: 24px; /* Nutze diese Größe für größere Icons, Avatare oder kleine Karten-Layouts, die eine prominente Rolle im Layout spielen. */
-  --size-3xl: 32px; /* Passend für Hauptkomponenten wie große Buttons oder mittlere Bildbereiche (z.B. Avatare, Thumbnails). */
-  --size-4xl: 40px; /* Für größere UI-Komponenten wie Cards oder größere Schaltflächen, die im Layout auffallen sollen. */
-  --size-5xl: 48px; /* Geeignet für besonders auffällige Elemente wie hervorgehobene Call-to-Action-Buttons oder prominentere Avatar-Größen. */
-  --size-6xl: 64px; /* Verwendung für größere Bilder, wie z.B. in Cards oder Grid-Layouts, oder große Buttons, die sich klar abheben sollen. */
-  --size-7xl: 96px; /* Für besonders markante visuelle Elemente wie große Avatare, Bannerbilder oder bedeutende Grid-Komponenten. */
-  --size-8xl: 128px; /* Eignet sich für Sektionen oder größere Container, die große visuelle Elemente wie Hero-Banner enthalten. */
-  --size-9xl: 256px; /* Verwendung für besonders große Bereiche wie Hero-Header oder ganzseitige Layout-Elemente. */
-  --size-none: 0px; /* Kein Platzbedarf, oft für verborgene oder sehr kompakte Elemente wie versteckte Layout-Elemente. */
-  --size-10xl: 512px;
-  --size-4xs: 1px; /* Minimale Größe für feine visuelle Elemente, z.B. sehr schmale Linien oder Trennungen. */
+  --size-zero: 0px; /* Kein Platzbedarf, oft für verborgene oder sehr kompakte Elemente wie versteckte Layout-Elemente. */
+  --size-hairline: 1px; /* Minimale Größe für feine visuelle Elemente, z.B. sehr schmale Linien oder Trennungen. */
+  --size-ultra-small: 2px; /* Minimale Größe für feine visuelle Elemente, z.B. sehr schmale Linien oder Trennungen. */
+  --size-extra-small: 4px; /* Kleine Elemente, die in enger Umgebung verwendet werden, wie etwa winzige Icons oder Abstandshalter */
+  --size-small: 6px; /* Für kleinere UI-Elemente wie kleine Icons, Symbole oder sehr enge Layouts geeignet. */
+  --size-compact: 8px; /* für kleinere Interaktionsflächen wie kleine Buttons oder Icons */
+  --size-medium: 12px; /* Geeignet für kleinere Komponenten wie kleine Buttons, Avatare oder Thumbnails. */
+  --size-large: 16px; /* Häufig verwendete Standardgröße für mittlere Buttons oder kleine Karten, analog zu Bootstrap's Standardkomponenten. */
+  --size-extra-large: 20px; /* Ideal für Komponenten, die etwas größer als Standard sein sollen, wie etwa größere Icons oder etwas breitere Buttons */
+  --size-double-large: 24px; /* Nutze diese Größe für größere Icons, Avatare oder kleine Karten-Layouts, die eine prominente Rolle im Layout spielen. */
+  --size-triple-large: 32px; /* Passend für Hauptkomponenten wie große Buttons oder mittlere Bildbereiche (z.B. Avatare, Thumbnails). */
+  --size-jumbo: 40px; /* Für größere UI-Komponenten wie Cards oder größere Schaltflächen, die im Layout auffallen sollen. */
+  --size-mega: 48px; /* Geeignet für besonders auffällige Elemente wie hervorgehobene Call-to-Action-Buttons oder prominentere Avatar-Größen. */
+  --size-giga: 64px; /* Verwendung für größere Bilder, wie z.B. in Cards oder Grid-Layouts, oder große Buttons, die sich klar abheben sollen. */
+  --size-terra: 96px; /* Für besonders markante visuelle Elemente wie große Avatare, Bannerbilder oder bedeutende Grid-Komponenten. */
+  --size-cosmic: 128px; /* Eignet sich für Sektionen oder größere Container, die große visuelle Elemente wie Hero-Banner enthalten. */
+  --size-colossal: 256px; /* Verwendung für besonders große Bereiche wie Hero-Header oder ganzseitige Layout-Elemente. */
+  --size-titan: 512px;
   --border-radius-10: 4px;
   --border-radius-20: 8px;
   --border-radius-30: 16px;
@@ -338,22 +338,22 @@
   --color-feedback-danger-base: #ff4242; /* Gefahr - Default */
   --color-feedback-warning-subtle: #fef2e5; /* Warnung - subtiler Hintergrund */
   --color-feedback-warning-base: #f6a846; /* Warnung - Default */
-  --space-none: 0px; /* No Spacing (keine Abstände, für eng aneinander liegende UI-Elemente) */
-  --space-3xs: 2px; /* Hairline Margin (sehr feine Abstände, fast unsichtbare Trennung, z.B. für minimalistische Designs) */
-  --space-2xs: 4px; /* Micro Padding (kleinste Füllung innerhalb eines Elements, für minimalen Puffer) */
-  --space-xs: 6px; /* Tight Grouping (sehr enger Abstand zwischen Elementen, die visuell eng zusammengehören) */
-  --space-sm: 8px; /* Micro Interaction (kleine, häufig verwendete Abstände, z.B. zwischen Text und einem Symbol) */
-  --space-md: 12px; /* Minor Padding (leichte Füllung oder Abstand innerhalb von Komponenten, für etwas mehr Platz) */
-  --space-lg: 16px; /* Compact Layout (etwas mehr Platz für kompakte Abschnitte, z.B. für Dashboard-Kacheln) */
-  --space-xl: 20px; /* Element Boundaries (Abstand zwischen verwandten Elementen, wie zwischen Text und einem Formularfeld) */
-  --space-2xl: 24px; /* Group Padding (moderate Abstände innerhalb von UI-Gruppen, z.B. innerhalb eines Modals) */
-  --space-3xl: 32px; /* Component Padding (Abstände innerhalb oder zwischen größeren Komponenten oder Content-Blöcken) */
-  --space-4xl: 40px; /* Major Padding (große Füllung in Elementen, wie in Card-Layouts oder größeren Interaktionsbereichen) */
-  --space-5xl: 48px; /* Component Separation (größere Abstände, um UI-Komponenten klar voneinander abzugrenzen) */
-  --space-6xl: 64px; /* Section Margins (Abstände zwischen Hauptsektionen, z.B. zwischen Header und Content-Bereich) */
-  --space-7xl: 96px; /* Layout Divider (sehr große Abstände für Layout-Wechsel oder klar getrennte Content-Blöcke) */
-  --space-8xl: 128px; /* Viewport Padding (große Abstände, z.B. für Seitenränder oder großformatige Überschriften) */
-  --space-9xl: 256px; /* Hero Section Spacing (riesige Abstände für übergreifende Layouts oder spezielle Bereiche wie Hero-Banner) */
+  --distance-zero: 0px; /* No Spacing (keine Abstände, für eng aneinander liegende UI-Elemente) */
+  --distance-tight: 2px; /* Hairline Margin (sehr feine Abstände, fast unsichtbare Trennung, z.B. für minimalistische Designs) */
+  --distance-tiny: 4px; /* Micro Padding (kleinste Füllung innerhalb eines Elements, für minimalen Puffer) */
+  --distance-small: 6px; /* Tight Grouping (sehr enger Abstand zwischen Elementen, die visuell eng zusammengehören) */
+  --distance-compact: 8px; /* Micro Interaction (kleine, häufig verwendete Abstände, z.B. zwischen Text und einem Symbol) */
+  --distance-medium: 12px; /* Minor Padding (leichte Füllung oder Abstand innerhalb von Komponenten, für etwas mehr Platz) */
+  --distance-large: 16px; /* Compact Layout (etwas mehr Platz für kompakte Abschnitte, z.B. für Dashboard-Kacheln) */
+  --distance-extra-large: 20px; /* Element Boundaries (Abstand zwischen verwandten Elementen, wie zwischen Text und einem Formularfeld) */
+  --distance-double-large: 24px; /* Group Padding (moderate Abstände innerhalb von UI-Gruppen, z.B. innerhalb eines Modals) */
+  --distance-triple-large: 32px; /* Component Padding (Abstände innerhalb oder zwischen größeren Komponenten oder Content-Blöcken) */
+  --distance-jumbo: 40px; /* Major Padding (große Füllung in Elementen, wie in Card-Layouts oder größeren Interaktionsbereichen) */
+  --distance-mega: 48px; /* Component Separation (größere Abstände, um UI-Komponenten klar voneinander abzugrenzen) */
+  --distance-giga: 64px; /* Section Margins (Abstände zwischen Hauptsektionen, z.B. zwischen Header und Content-Bereich) */
+  --distance-terra: 96px; /* Layout Divider (sehr große Abstände für Layout-Wechsel oder klar getrennte Content-Blöcke) */
+  --distance-cosmic: 128px; /* Viewport Padding (große Abstände, z.B. für Seitenränder oder großformatige Überschriften) */
+  --distance-colossal: 256px; /* Hero Section Spacing (riesige Abstände für übergreifende Layouts oder spezielle Bereiche wie Hero-Banner) */
   --fontfamily-default: 16px 'Noto Sans'; /* Noto Sans */
   --fontweight-regular: 400 16px sans-serif; /* Fließtext oder längere Textabschnitte, die gut lesbar und nicht zu schwer wirken sollen. */
   --fontweight-medium: 500 16px sans-serif; /* für Zwischenüberschriften, Labels oder wichtige Textpassagen, die etwas mehr Gewicht als der Standard-Fließtext benötigen */
