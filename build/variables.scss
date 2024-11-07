@@ -119,7 +119,7 @@ $opacity-low: 10%;
 $opacity-md: 50%;
 $opacity-high: 90%;
 $font-families-default: 'Noto Sans';
-$font-families-icons: 'Font Awesome 6 Sharp';
+$font-families-font-awesome: 'Font Awesome 6 Sharp';
 $letter-spacing-default: 0;
 $letter-spacing-increased: 150%;
 $letter-spacing-decreased: -5%;
@@ -353,6 +353,7 @@ $distance-terra: 96px; // Layout Divider (sehr große Abstände für Layout-Wech
 $distance-cosmic: 128px; // Viewport Padding (große Abstände, z.B. für Seitenränder oder großformatige Überschriften)
 $distance-colossal: 256px; // Hero Section Spacing (riesige Abstände für übergreifende Layouts oder spezielle Bereiche wie Hero-Banner)
 $fontfamily-default: 16px 'Noto Sans'; // Noto Sans
+$fontfamily-icon: 16px 'Font Awesome 6 Sharp';
 $fontweight-regular: 400 16px sans-serif; // Fließtext oder längere Textabschnitte, die gut lesbar und nicht zu schwer wirken sollen.
 $fontweight-medium: 500 16px sans-serif; // für Zwischenüberschriften, Labels oder wichtige Textpassagen, die etwas mehr Gewicht als der Standard-Fließtext benötigen
 $fontweight-semibold: 600 16px sans-serif; // Button-Labels oder UI-Elemente, die hervorgehoben, aber nicht dominant sein sollen
