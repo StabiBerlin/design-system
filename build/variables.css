@@ -364,14 +364,14 @@
   --lineheight-tight: 16px/1.25 sans-serif; /* Verwende für Überschriften oder kurze Textelemente, bei denen der Text kompakt und dicht wirken soll, um den Platz effizient zu nutzen. */
   --lineheight-normal: 16px/1.5 sans-serif; /* für Fließtext oder längere Absätze, um eine gute Lesbarkeit und klare Zeilenabstände zu gewährleisten, ohne zu viel Platz zu verbrauchen. */
   --lineheight-loose: 16px/1.75 sans-serif; /* für großformatige Texte, wie in Hero-Bannern oder Infografiken, bei denen eine offene, luftige Gestaltung gewünscht ist. */
-  --fontsize-xs: 0.875 rem sans-serif; /* 14px - für kleinere Textelemente, wie Labels, Hilfetexte oder sekundäre Informationen, die nicht zu dominant wirken sollen */
-  --fontsize-base: 1 rem sans-serif; /* 16px - Standardgröße, wird für die meisten Textabschnitte verwendet und bietet gute Lesbarkeit auf verschiedenen Geräten. */
-  --fontsize-sm: 1.125 rem sans-serif; /* 18px - leicht hervorgehobenen Text, z.B. in Abschnittsüberschriften/Subtitles, die etwas mehr Gewicht als Fließtext haben sollen */
-  --fontsize-md: 1.25 rem sans-serif; /* 20px - Geeignet für kleinere Überschriften oder Call-to-Action-Texte, die mehr Aufmerksamkeit als normaler Text erfordern */
-  --fontsize-lg: 1.5 rem sans-serif; /* 24px - Verwende für mittlere Überschriften oder wichtige Textabschnitte, die sich klar vom Fließtext abheben sollen */
-  --fontsize-xl: 1.75 rem sans-serif; /* 28px - Nutze für Hauptüberschriften oder größere UI-Komponenten, die gut sichtbar, aber nicht dominant sein sollen */
-  --fontsize-2xl: 2 rem sans-serif; /* 32px - für markante Überschriften in wichtigen Bereichen wie Startseiten, Hero-Bannern oder zentralen UI-Elementen */
-  --fontsize-3xl: 3 rem sans-serif; /* 48px - für sehr große Überschriften oder markante Textelemente, die maximale Aufmerksamkeit benötigen */
-  --fontsize-4xl: 4 rem sans-serif; /* 64px - für herausragende Überschriften in Hero-Bannern oder prominenten Titelseiten, */
-  --fontsize-2xs: 0.75rem sans-serif; /* 12px - selten Verwendung in informationsreichen Interfaces für z.B. Fußnoten, Hinweise oder weniger prominente Labels */
+  --fontsize-caption: 0.75rem sans-serif; /* 12px - selten Verwendung in informationsreichen Interfaces für z.B. Fußnoten, Hinweise oder weniger prominente Labels */
+  --fontsize-label: 0.875 rem sans-serif; /* 14px - für kleinere Textelemente, wie Labels, Hilfetexte oder sekundäre Informationen, die nicht zu dominant wirken sollen */
+  --fontsize-subtext: 1 rem sans-serif; /* 16px - Standardgröße, wird für die meisten Textabschnitte verwendet und bietet gute Lesbarkeit auf verschiedenen Geräten. */
+  --fontsize-body: 1.125 rem sans-serif; /* 18px - leicht hervorgehobenen Text, z.B. in Abschnittsüberschriften/Subtitles, die etwas mehr Gewicht als Fließtext haben sollen */
+  --fontsize-subheading: 1.25 rem sans-serif; /* 20px - Geeignet für kleinere Überschriften oder Call-to-Action-Texte, die mehr Aufmerksamkeit als normaler Text erfordern */
+  --fontsize-heading: 1.5 rem sans-serif; /* 24px - Verwende für mittlere Überschriften oder wichtige Textabschnitte, die sich klar vom Fließtext abheben sollen */
+  --fontsize-title: 1.75 rem sans-serif; /* 28px - Nutze für Hauptüberschriften oder größere UI-Komponenten, die gut sichtbar, aber nicht dominant sein sollen */
+  --fontsize-lead: 2 rem sans-serif; /* 32px - für markante Überschriften in wichtigen Bereichen wie Startseiten, Hero-Bannern oder zentralen UI-Elementen */
+  --fontsize-spotlight: 3 rem sans-serif; /* 48px - für sehr große Überschriften oder markante Textelemente, die maximale Aufmerksamkeit benötigen */
+  --fontsize-display: 4 rem sans-serif; /* 64px - für herausragende Überschriften in Hero-Bannern oder prominenten Titelseiten, */
 }
