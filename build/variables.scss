@@ -313,6 +313,10 @@ $breakpoint-30: 768px;
 $breakpoint-40: 992px;
 $breakpoint-50: 1200px;
 $breakpoint-60: 1400px;
+$breakpoint-mobile: 576px; // Breakpoint, der für mobile Geräte mit kleinen Bildschirmen verwendet wird, basierend auf dem sm-Breakpoint.
+$breakpoint-tablet: 768px; // Breakpoint für Tablets oder ähnliche Geräte, basierend auf dem md-Breakpoint.
+$breakpoint-desktop: 992px; // Breakpoint für Standard-Desktop-Ansichten, basierend auf dem lg-Breakpoint.
+$breakpoint-large-desktop: 1400px; // Breakpoint für große Desktops und Monitore, basierend auf dem xl-Breakpoint.
 $color-text-subtle: #64748b; // optionale Inhalte
 $color-text-base: #475569; // Hauptinhalt und Überschriften
 $color-text-strong: #334155; // Überschriften und fokussierte Inhalte
@@ -368,7 +372,3 @@ $fontsize-2xl: 2 rem sans-serif; // 32px - für markante Überschriften in wicht
 $fontsize-3xl: 3 rem sans-serif; // 48px - für sehr große Überschriften oder markante Textelemente, die maximale Aufmerksamkeit benötigen
 $fontsize-4xl: 4 rem sans-serif; // 64px - für herausragende Überschriften in Hero-Bannern oder prominenten Titelseiten,
 $fontsize-2xs: 0.75rem sans-serif; // 12px - selten Verwendung in informationsreichen Interfaces für z.B. Fußnoten, Hinweise oder weniger prominente Labels
-$breakpoints-mobile: 576px; // Breakpoint, der für mobile Geräte mit kleinen Bildschirmen verwendet wird, basierend auf dem sm-Breakpoint.
-$breakpoints-tablet: 768px; // Breakpoint für Tablets oder ähnliche Geräte, basierend auf dem md-Breakpoint.
-$breakpoints-desktop: 992px; // Breakpoint für Standard-Desktop-Ansichten, basierend auf dem lg-Breakpoint.
-$breakpoints-large-desktop: 1400px; // Breakpoint für große Desktops und Monitore, basierend auf dem xl-Breakpoint.
