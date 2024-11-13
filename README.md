@@ -22,23 +22,27 @@ Das Design System ist ein gemeinsamer Satz wiederverwendbarer Komponenten, Muste
 Die Design Tokens sind derzeit als CSS- und SCSS-Variablen verfügbar und liegen im build-Ordner. 
 Sie können lokal eingebunden oder direkt über den GitHub-Link variables.css integriert werden. Falls zusätzliche Ausgabeformate erforderlich sind, steht das Design-Team für Rückfragen zur Verfügung.
 ### Installation
-**1.1 Lokale Einbindung:** Die Dateien aus dem build-Ordner können ins Projekt kopiert und im Haupt-Stylesheet eingebunden werden:
+**1.1 Lokale Einbindung via HTTP(S)** Die CSS-Datei aus dem build-Ordner kann via HTTP(S) direkt aus dem Repository eingebunden werden:
+```
+@import 'https://github.com/StabiBerlin/design-tokens/blob/main/build/variables.css
+```
+**1.2 Lokale Einbindung:** Die Dateien aus dem build-Ordner können ins Projekt kopiert und im Haupt-Stylesheet eingebunden werden:
 ```
 @import 'build/variables.scss';
 ```
-**1.2 Direkte Einbindung via GitHub:** Alternativ kann die CSS-Datei direkt aus dem Repository eingebunden werden:
+**1.3 Direkte Einbindung via GitHub:** Die CSS-Datei aus dem build Ordner kann direkt aus dem Repository eingebunden werden:
 ```
 <link rel="stylesheet" href="https://github.com/StabiBerlin/design-tokens/blob/main/build/variables.css">
 ```
 ### Beispiele
 #### Card-Komponente
-Ein Beispiel für die Anwendung der Design Tokens auf eine Card-Komponente:
+Ein Beispiel für die Anwendung der Design Tokens auf eine Card-Komponente aus dem Bootstrap Framework:
 ```
 .card {
   border: var(--size.hairline) solid var(--color.stroke.strong);   /* Rahmenfarbe */
-  border-radius: var(--border-radius-12);          /* Runde Ecken */
-  padding: var(--spacing-24);                      /* Konsistente Innenabstände */
-  background-color: var(--color-neutral-surface);  /* Hintergrundfarbe */
+  border-radius: var(--border-radius-12);                         /* Runde Ecken */
+  padding: var(--distance.doubleLarge);                          /* Konsistente Innenabstände */
+  background-color: var(color.background.subtle);               /* Hintergrundfarbe */
 }
 ```
 
