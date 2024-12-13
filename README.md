@@ -1,4 +1,4 @@
-![[Designsystem-Headerbild der Staatsbibliothek zu Berlin](https://github.com/user-attachments/assets/ce6e2174-d243-42ce-879c-6c31592a4c9a)
+![Designsystem-Headerbild der Staatsbibliothek zu Berlin](https://github.com/user-attachments/assets/ce6e2174-d243-42ce-879c-6c31592a4c9a)
 
 
 # Design Systen - Staatsbibliothek zu Berlin
