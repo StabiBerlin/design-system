@@ -1,4 +1,6 @@
-![Designsystem-Headerbild der Staatsbibliothek zu Berlin in einem dunklen Blauton. Im Hintergrund ein abstraktes Muster mit geometrischen Formen, die an Kreise und Linien erinnern. In der Mitte des Bildes steht in weißer Schrift: ‚Staatsbibliothek zu Berlin DESIGNSYSTEM‘.](https://github.com/StabiBerlin/design-tokens/blob/main/Design_System_Header.jpg)
+![[Designsystem-Headerbild der Staatsbibliothek zu Berlin](https://github.com/user-attachments/assets/ce6e2174-d243-42ce-879c-6c31592a4c9a)
+
+
 # Design Systen - Staatsbibliothek zu Berlin
 ## Beschreibung
 Wir entwickeln eine zentrale Anlaufstelle für Standards zur Gestaltung digitaler Produkte der Stabi.
