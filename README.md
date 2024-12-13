@@ -49,7 +49,7 @@ Ein Beispiel für die Anwendung der Design Tokens auf eine Card-Komponente aus d
 
 ## 📬 Kontakt
 Das Design System wird von dem UX-Team der Staatsbibliothek zu Berlin betreut. 
-Kontakt über <a href="mailto:informationsdesign@sbb.spk-berlin.de">E-Mail</a> oder dem [Design System Webex Kanal](webexteams://im?space=f62a90e0-b3d7-11ef-be6d-379783c08920).
+Kontakt über <a href="mailto:informationsdesign@sbb.spk-berlin.de">E-Mail</a> oder dem Design System Webex Kanal (Anfrage per Mail).
 
 
 
