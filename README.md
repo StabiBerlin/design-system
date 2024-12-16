@@ -16,22 +16,22 @@ Das Design System ist ein gemeinsamer Satz wiederverwendbarer Komponenten, Muste
 ## Umfang
 * [Figma File für die Dokumentation des Design Systems](https://www.figma.com/design/5Ribk1gHzE5UFiAPnyWv9n/DESIGN-SYSTEM?node-id=1039-9&t=LgZXIeiM8r03UBps-1)
 * Foundation Design Tokens: Zentrale Variablen, die Design-Informationen wie Farben, Abstände, Schriftgrößen und weitere stilistische Eigenschaften speichern
-* Bereitstellung des Design Systems über ein CDN (👷in Arbeit)
-* Eine Komponetenbibliothek aufbauend auf den Design Tokens (👷in Arbeit)
+* Bereitstellung des Design Systems über ein CDN (via jsdeliver)
+* Eine Komponetenbibliothek aufbauend auf den Design Tokens (in Arbeit)
 
 ## Verwendung
-Die Design Tokens sind derzeit als CSS- und SCSS-Variablen verfügbar und liegen im build-Ordner. 
-Sie können lokal eingebunden oder direkt über den GitHub-Link variables.css integriert werden. Falls zusätzliche Ausgabeformate erforderlich sind, steht das Design-Team für Rückfragen zur Verfügung.
+In der Datei "tokens.css" werden die Design Tokens als CSS-Variablen bereitgestellt.
+Sie können lokal eingebunden oder über CDN integriert werden. Falls zusätzliche Ausgabeformate erforderlich sind, steht das Design-Team für Rückfragen zur Verfügung.
 ### Installation
-**1.1 Lokale Einbindung via HTTP(S)** Die CSS-Datei aus dem build-Ordner kann via HTTP(S) direkt aus dem Repository eingebunden werden:
+**1.1 Lokale Einbindung via HTTP(S)** Die Datei "tokens.css" kann via HTTP(S) direkt aus dem Repository eingebunden werden:
 ```
-@import 'https://github.com/StabiBerlin/design-tokens/blob/main/build/variables.css
+@import 'https://github.com/StabiBerlin/design-system/blob/main/tokens.css
 ```
-**1.2 Lokale Einbindung:** Die Dateien aus dem build-Ordner können ins Projekt kopiert und im Haupt-Stylesheet eingebunden werden:
+**1.2 Lokale Einbindung:** Die Datei "tokens.css" kann ins Projekt kopiert und im Haupt-Stylesheet eingebunden werden:
 ```
-@import 'build/variables.scss';
+@import 'build/tokens.css';
 ```
-**1.3 Direkte Einbindung via GitHub:** Die CSS-Datei aus dem build Ordner kann direkt aus dem Repository eingebunden werden:
+**1.3 Einbindung via JSDelivr (CDN):** Die Datei "tokens.css" kann über ein CDN direkt eingebunden werden:
 ```
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/StabiBerlin/design-tokens/build/variables.css">
 ```
