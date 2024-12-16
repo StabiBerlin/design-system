@@ -33,7 +33,7 @@ Sie können lokal eingebunden oder direkt über den GitHub-Link variables.css in
 ```
 **1.3 Direkte Einbindung via GitHub:** Die CSS-Datei aus dem build Ordner kann direkt aus dem Repository eingebunden werden:
 ```
-<link rel="stylesheet" href="https://github.com/StabiBerlin/design-tokens/blob/main/build/variables.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/StabiBerlin/design-tokens/build/variables.css">
 ```
 ### Beispiele
 #### Card-Komponente
