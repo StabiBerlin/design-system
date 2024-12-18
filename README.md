@@ -21,7 +21,7 @@ Das Design System ist ein gemeinsamer Satz wiederverwendbarer Komponenten, Muste
 
 ## Verwendung
 In der Datei "tokens.css" werden die Design Tokens als CSS-Variablen bereitgestellt.
-Sie können lokal eingebunden oder über CDN integriert werden. Falls zusätzliche Ausgabeformate erforderlich sind, steht das Design-Team für Rückfragen zur Verfügung.
+Sie können lokal eingebunden oder über ein CDN integriert werden. Falls zusätzliche Ausgabeformate erforderlich sind, steht das Design-Team für Rückfragen zur Verfügung.
 ### Installation
 **1.1 Lokale Einbindung via HTTP(S)** Die Datei "tokens.css" kann via HTTP(S) direkt aus dem Repository eingebunden werden:
 ```
@@ -47,7 +47,7 @@ Ein Beispiel für die Anwendung der Design Tokens auf eine Card-Komponente aus d
 }
 ```
 
-## 📬 Kontakt
+## Kontakt
 Das Design System wird von dem UX-Team der Staatsbibliothek zu Berlin betreut. 
 Kontakt über <a href="mailto:informationsdesign@sbb.spk-berlin.de">E-Mail</a> oder dem Design System Webex Kanal (Anfrage per Mail).
 
