@@ -21,7 +21,7 @@ Das Design System ist ein gemeinsamer Satz wiederverwendbarer Komponenten, Muste
 
 ## Verwendung
 In der Datei "tokens.css" werden die Design Tokens als CSS-Variablen bereitgestellt.
-Sie können lokal eingebunden oder über CDN integriert werden. Falls zusätzliche Ausgabeformate erforderlich sind, steht das Design-Team für Rückfragen zur Verfügung.
+Sie können lokal eingebunden oder über ein CDN integriert werden. Falls zusätzliche Ausgabeformate erforderlich sind, steht das Design-Team für Rückfragen zur Verfügung.
 ### Installation
 **1.1 Lokale Einbindung via HTTP(S)** Die Datei "tokens.css" kann via HTTP(S) direkt aus dem Repository eingebunden werden:
 ```
