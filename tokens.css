@@ -3,14 +3,14 @@
     /* COLORS */
     --semantic-color-background-base: #ffffff;
     --semantic-color-background-subtle: #f0f0f3;
-    --semantic-color-background-accent-a-base: #8289bc;
-    --semantic-color-background-accent-a-subtle: #c5c4e3;
-    --semantic-color-background-accent-b-base: #8b8e22;
-    --semantic-color-background-accent-b-subtle: #cfce35;
-    --semantic-color-background-accent-c-base: #ffe209;
-    --semantic-color-background-accent-c-subtle: #fff19a;
+    --semantic-color-background-lavender-base: #8289bc;
+    --semantic-color-background-lavender-subtle: #c5c4e3;
+    --semantic-color-background-lemon-base: #ffe209;
+    --semantic-color-background-lemon-subtle: #fff19a;
     --semantic-color-background-neutral-base: #ffffff;
     --semantic-color-background-neutral-subtle: #f0f0f3;
+    --semantic-color-background-olive-base: #8b8e22;
+    --semantic-color-background-olive-subtle: #cfce35;
     --semantic-color-feedback-danger-base: #d20a11;
     --semantic-color-feedback-sucess-base: #008b55;
     --semantic-color-feedback-warning-base: #efcd00;
@@ -25,11 +25,13 @@
     --semantic-color-text-heavy: #383e45;
     --semantic-color-text-strong: #515963;
     --semantic-color-text-subtle: #7b8695;
+
     /* BREAKPOINTS */
     --semantic-breakpoint-mobile: 36rem;
     --semantic-breakpoint-tablet: 48rem;
     --semantic-breakpoint-desktop: 62rem;
     --semantic-breakpoint-large-desktop: 87.5rem;
+
     /* DISTANCES */
     --semantic-distance-zero: 0rem;
     --semantic-distance-ultra-small: 0.125rem;
@@ -47,6 +49,7 @@
     --semantic-distance-terra: 6rem;
     --semantic-distance-cosmic: 8rem;
     --semantic-distance-colossal: 16rem;
+
     /* FONT SIZES */
     --semantic-font-size-caption: 0.75rem;
     --semantic-font-size-label: 0.875rem;
@@ -58,14 +61,17 @@
     --semantic-font-size-lead: 2rem;
     --semantic-font-size-spotlight: 3rem;
     --semantic-font-size-display: 4rem;
+
     /* FONT WEIGHTS */
     --semantic-font-weight-regular: 25rem;
     --semantic-font-weight-semi-bold: 37.5rem;
     --semantic-font-weight-bold: 43.75rem;
+
     /* LINE HEIGHTS */
     --semantic-line-height-tight: 0.0781rem;
     --semantic-line-height-normal: 0.0938rem;
     --semantic-line-height-loose: 0.1094rem;
+
     /* SIZES */
     --semantic-size-zero: 0rem;
     --semantic-size-hairline: 0.0625rem;
@@ -85,11 +91,13 @@
     --semantic-size-cosmic: 8rem;
     --semantic-size-colossal: 16rem;
     --semantic-size-titan: 32rem;
+
     /* FONT FAMILIES */
     --semantic-font-family-default: Noto Sans;
     --semantic-font-family-icon: Font Awesome 6 Sharp;
+
     /* ICONS */
-    --semantic-icons-add-button: fa-solid fa-plus;
+   --semantic-icons-add-button: fa-solid fa-plus;
     --semantic-icons-add-location: fa-solid fa-location-dot;
     --semantic-icons-arrow-link: fa-solid fa-arrow-right;
     --semantic-icons-blog: fa-solid fa-rss;
