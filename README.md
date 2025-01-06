@@ -20,25 +20,26 @@ Das Design System ist ein gemeinsamer Satz wiederverwendbarer Komponenten, Muste
 * Eine Komponetenbibliothek aufbauend auf den Design Tokens (in Arbeit)
 
 ## Verwendung
-In der Datei "tokens.css" werden die Design Tokens als CSS-Variablen bereitgestellt.
+In der Datei [`tokens.css`](tokens.css) werden die Design Tokens als CSS-Variablen bereitgestellt.
 Sie können lokal eingebunden oder über ein CDN integriert werden. Falls zusätzliche Ausgabeformate erforderlich sind, steht das Design-Team für Rückfragen zur Verfügung.
+
 ### Installation
 **1.1 Lokale Einbindung via HTTP(S)** Die Datei "tokens.css" kann via HTTP(S) direkt aus dem Repository eingebunden werden:
 
 ```css
-@import 'https://github.com/StabiBerlin/design-system/blob/main/tokens.css
+@import 'https://raw.githubusercontent.com/StabiBerlin/design-system/refs/heads/main/tokens.css';
 ```
 
 **1.2 Lokale Einbindung:** Die Datei "tokens.css" kann ins Projekt kopiert und im Haupt-Stylesheet eingebunden werden:
 
 ```css
-@import 'build/tokens.css';
+@import 'tokens.css';
 ```
 
 **1.3 Einbindung via JSDelivr (CDN):** Die Datei "tokens.css" kann über ein CDN direkt eingebunden werden:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/StabiBerlin/design-tokens/build/variables.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/StabiBerlin/design-tokens/tokens.css">
 ```
 
 ### Beispiele
