@@ -24,21 +24,28 @@ In der Datei "tokens.css" werden die Design Tokens als CSS-Variablen bereitgeste
 Sie können lokal eingebunden oder über ein CDN integriert werden. Falls zusätzliche Ausgabeformate erforderlich sind, steht das Design-Team für Rückfragen zur Verfügung.
 ### Installation
 **1.1 Lokale Einbindung via HTTP(S)** Die Datei "tokens.css" kann via HTTP(S) direkt aus dem Repository eingebunden werden:
-```
+
+```css
 @import 'https://github.com/StabiBerlin/design-system/blob/main/tokens.css
 ```
+
 **1.2 Lokale Einbindung:** Die Datei "tokens.css" kann ins Projekt kopiert und im Haupt-Stylesheet eingebunden werden:
-```
+
+```css
 @import 'build/tokens.css';
 ```
+
 **1.3 Einbindung via JSDelivr (CDN):** Die Datei "tokens.css" kann über ein CDN direkt eingebunden werden:
-```
+
+```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/StabiBerlin/design-tokens/build/variables.css">
 ```
+
 ### Beispiele
 #### Card-Komponente
 Ein Beispiel für die Anwendung der Design Tokens auf eine Card-Komponente aus dem Bootstrap Framework:
-```
+
+```css
 .card {
   border: var(--size.hairline) solid var(--color.stroke.strong);   /* Rahmenfarbe */
   border-radius: var(--border-radius-12);                         /* Runde Ecken */
