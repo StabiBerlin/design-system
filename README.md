@@ -24,13 +24,13 @@ In der Datei [`tokens.css`](tokens.css) werden die Design Tokens als CSS-Variabl
 Sie können lokal eingebunden oder über ein CDN integriert werden. Falls zusätzliche Ausgabeformate erforderlich sind, steht das Design-Team für Rückfragen zur Verfügung.
 
 ### Installation
-**1. Lokale Einbindung:** Die Datei "tokens.css" kann ins Projekt kopiert und im Haupt-Stylesheet eingebunden werden:
+**1. Einbindung via JSDelivr in das Stylesheet:** Die Datei "tokens.css" kann im Haupt-Stylesheet eingebunden werden:
 
 ```css
-@import 'tokens.css';
+@import url('https://cdn.jsdelivr.net/gh/StabiBerlin/design-tokens/tokens.css');
 ```
 
-**2. Einbindung via JSDelivr (CDN):** Die Datei "tokens.css" kann über ein CDN direkt eingebunden werden:
+**2. Einbindung via JSDelivr in das Markup:** Die Datei "tokens.css" kann im Markup eingebunden werden:
 
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/StabiBerlin/design-tokens/tokens.css">
