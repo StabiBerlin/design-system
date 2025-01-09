@@ -63,9 +63,9 @@
     --semantic-font-size-display: 4rem;
 
     /* FONT WEIGHTS */
-    --semantic-font-weight-regular: 25rem;
-    --semantic-font-weight-semi-bold: 37.5rem;
-    --semantic-font-weight-bold: 43.75rem;
+  --semantic-font-weight-bold: bold;
+  --semantic-font-weight-regular: normal;
+  --semantic-font-weight-semi-bold: semi-bold;
 
     /* LINE HEIGHTS */
     --semantic-line-height-tight: 0.0781rem;
