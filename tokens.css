@@ -26,6 +26,10 @@
     --semantic-color-text-heavy: #383e45;
     --semantic-color-text-strong: #515963;
     --semantic-color-text-subtle: #7b8695;
+    --semantic-color-text-inverse-base: #e3e4e9; 
+    --semantic-color-text-inverse-heavy: #ffffff; 
+    --semantic-color-text-inverse-strong: #f0f0f3; 
+    --semantic-color-text-inverse-subtle: #d6d8df; 
 
     /* BREAKPOINTS */
     --semantic-breakpoint-mobile: 36rem;
