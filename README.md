@@ -1,7 +1,7 @@
 ![Designsystem-Headerbild der Staatsbibliothek zu Berlin](https://github.com/user-attachments/assets/ce6e2174-d243-42ce-879c-6c31592a4c9a)
 
 
-# Design Systen - Staatsbibliothek zu Berlin
+# Design System - Staatsbibliothek zu Berlin
 ## Beschreibung
 Wir entwickeln eine zentrale Anlaufstelle für Standards zur Gestaltung digitaler Produkte der Stabi.
 Das Design System ist ein gemeinsamer Satz wiederverwendbarer Komponenten, Muster und Richtlinien. Hiermit wollen wir die Entwicklung konsistenter, nutzerfreundlicher Produkte beschleunigen und eine nahtlose, kohärente Nutzererfahrung aufbauen. Mit dem Strategiepapier „Stabi 2030“ hat die Staatsbibliothek ihre Ausrichtung auf Nutzerzentrierung und Barrierefreiheit digitaler Systeme weiter gestärkt. Das Design System unterstützt diese strategischen Ziele, indem es die Grundlage für nutzendenzentrierte  und barrierearme digitale Services schafft.
