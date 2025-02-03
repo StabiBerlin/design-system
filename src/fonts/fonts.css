@@ -1,4 +1,5 @@
 
+/* NOTO SANS */
 /* noto-sans-regular - latin */
 @font-face {
     font-display: swap;
@@ -75,4 +76,111 @@
         /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
         url('./noto-sans/noto-sans-v35-latin-700italic.ttf') format('truetype');
     /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+
+/* FONT AWESOME */
+/* Font Awesome Brands */
+@font-face {
+    font-family: 'Font Awesome 6 Brands';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./font-awesome/fa-brands-400.woff2') format('woff2'),
+        url('./font-awesome/fa-brands-400.ttf') format('truetype');
+    font-display: swap;
+}
+
+/* Font Awesome Duotone */
+@font-face {
+    font-family: 'Font Awesome 6 Duotone';
+    font-style: normal;
+    font-weight: 300;
+    src: url('./font-awesome/fa-duotone-light-300.woff2') format('woff2'),
+        url('./font-awesome/fa-duotone-light-300.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Font Awesome 6 Duotone';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./font-awesome/fa-duotone-regular-400.woff2') format('woff2'),
+        url('./font-awesome/fa-duotone-regular-400.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Font Awesome 6 Duotone';
+    font-style: normal;
+    font-weight: 900;
+    src: url('./font-awesome/fa-duotone-900.woff2') format('woff2'),
+        url('./font-awesome/fa-duotone-900.ttf') format('truetype');
+    font-display: swap;
+}
+
+/* Font Awesome Solid */
+@font-face {
+    font-family: 'Font Awesome 6 Solid';
+    font-style: normal;
+    font-weight: 900;
+    src: url('./font-awesome/fa-solid-900.woff2') format('woff2'),
+        url('./font-awesome/fa-solid-900.ttf') format('truetype');
+    font-display: swap;
+}
+
+/* Font Awesome Thin */
+@font-face {
+    font-family: 'Font Awesome 6 Thin';
+    font-style: normal;
+    font-weight: 100;
+    src: url('./font-awesome/fa-thin-100.woff2') format('woff2'),
+        url('./font-awesome/fa-thin-100.ttf') format('truetype');
+    font-display: swap;
+}
+
+/* Font Awesome Regular */
+@font-face {
+    font-family: 'Font Awesome 6 Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./font-awesome/fa-regular-400.woff2') format('woff2'),
+        url('./font-awesome/fa-regular-400.ttf') format('truetype');
+    font-display: swap;
+}
+
+/* Font Awesome Sharp */
+@font-face {
+    font-family: 'Font Awesome 6 Sharp';
+    font-style: normal;
+    font-weight: 100;
+    src: url('./font-awesome/fa-sharp-thin-100.woff2') format('woff2'),
+        url('./font-awesome/fa-sharp-thin-100.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Font Awesome 6 Sharp';
+    font-style: normal;
+    font-weight: 300;
+    src: url('./font-awesome/fa-sharp-light-300.woff2') format('woff2'),
+        url('./font-awesome/fa-sharp-light-300.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Font Awesome 6 Sharp';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./font-awesome/fa-sharp-regular-400.woff2') format('woff2'),
+        url('./font-awesome/fa-sharp-regular-400.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Font Awesome 6 Sharp';
+    font-style: normal;
+    font-weight: 900;
+    src: url('./font-awesome/fa-sharp-solid-900.woff2') format('woff2'),
+        url('./font-awesome/fa-sharp-solid-900.ttf') format('truetype');
+    font-display: swap;
 }
