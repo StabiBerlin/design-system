@@ -1,85 +1,18 @@
-
-/* NOTO SANS */
-/* noto-sans-regular */
-@font-face {
-    font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Noto Sans';
-    font-style: normal;
-    font-weight: 400;
-    src: url('./noto-sans/noto-sans-v35-latin-regular.woff2') format('woff2'),
-        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-        url('./noto-sans/noto-sans-v35-latin-regular.ttf') format('truetype');
-    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
-}
-
-/* noto-sans-italic */
-@font-face {
-    font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Noto Sans';
-    font-style: italic;
-    font-weight: 400;
-    src: url('./noto-sans/noto-sans-v35-latin-italic.woff2') format('woff2'),
-        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-        url('./noto-sans/noto-sans-v35-latin-italic.ttf') format('truetype');
-    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
-}
-
-/* noto-sans-600 */
-@font-face {
-    font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Noto Sans';
-    font-style: normal;
-    font-weight: 600;
-    src: url('./noto-sans/noto-sans-v35-latin-600.woff2') format('woff2'),
-        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-        url('./noto-sans/noto-sans-v35-latin-600.ttf') format('truetype');
-    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
-}
-
-/* noto-sans-600italic */
-@font-face {
-    font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Noto Sans';
-    font-style: italic;
-    font-weight: 600;
-    src: url('./noto-sans/noto-sans-v35-latin-600italic.woff2') format('woff2'),
-        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-        url('./noto-sans/noto-sans-v35-latin-600italic.ttf') format('truetype');
-    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
-}
-
-/* noto-sans-700  */
-@font-face {
-    font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Noto Sans';
-    font-style: normal;
-    font-weight: 700;
-    src: url('./noto-sans/noto-sans-v35-latin-700.woff2') format('woff2'),
-        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-        url('./noto-sans/noto-sans-v35-latin-700.ttf') format('truetype');
-    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
-}
-
-/* noto-sans-700italic */
-@font-face {
-    font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Noto Sans';
-    font-style: italic;
-    font-weight: 700;
-    src: url('./noto-sans/noto-sans-v35-latin-700italic.woff2') format('woff2'),
-        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-        url('./noto-sans/noto-sans-v35-latin-700italic.ttf') format('truetype');
-    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
-}
-
-
-/* FONT AWESOME */
+/* FONT AWESOME CSS FILES */
+@import url('./font-awesome/fontawesome.min.css');
+@import url('./font-awesome/solid.min.css');
+@import url('./font-awesome/regular.min.css');
+@import url('./font-awesome/brands.min.css');
+@import url('./font-awesome/light.min.css');
+@import url('./font-awesome/thin.min.css');
+@import url('./font-awesome/duotone.min.css');
+@import url('./font-awesome/sharp-solid.min.css');
+@import url('./font-awesome/sharp-light.min.css');
+@import url('./font-awesome/sharp-regular.min.css');
+@import url('./font-awesome/sharp-thin.min.css');
+@import url('./font-awesome/v4-font-face.min.css');
+@import url('./font-awesome/v5-font-face.min.css');
+/* Font AWESOME FONTS */
 /* Font Awesome Brands */
 @font-face {
     font-family: 'Font Awesome 6 Brands';
@@ -184,3 +117,83 @@
         url('./font-awesome/fa-sharp-solid-900.ttf') format('truetype');
     font-display: swap;
 }
+
+/* NOTO SANS */
+/* noto-sans-regular */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./noto-sans/noto-sans-v35-latin-regular.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+        url('./noto-sans/noto-sans-v35-latin-regular.ttf') format('truetype');
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* noto-sans-italic */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Noto Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: url('./noto-sans/noto-sans-v35-latin-italic.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+        url('./noto-sans/noto-sans-v35-latin-italic.ttf') format('truetype');
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* noto-sans-600 */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('./noto-sans/noto-sans-v35-latin-600.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+        url('./noto-sans/noto-sans-v35-latin-600.ttf') format('truetype');
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* noto-sans-600italic */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Noto Sans';
+    font-style: italic;
+    font-weight: 600;
+    src: url('./noto-sans/noto-sans-v35-latin-600italic.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+        url('./noto-sans/noto-sans-v35-latin-600italic.ttf') format('truetype');
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* noto-sans-700  */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./noto-sans/noto-sans-v35-latin-700.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+        url('./noto-sans/noto-sans-v35-latin-700.ttf') format('truetype');
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* noto-sans-700italic */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Noto Sans';
+    font-style: italic;
+    font-weight: 700;
+    src: url('./noto-sans/noto-sans-v35-latin-700italic.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+        url('./noto-sans/noto-sans-v35-latin-700italic.ttf') format('truetype');
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
