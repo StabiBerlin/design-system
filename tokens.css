@@ -1,5 +1,9 @@
 
 :root {
+/* --- */
+/* SEMANTIC TOKENS */
+/* --- */
+
     /* COLORS */
     --semantic-color-background-base: #ffffff; /* Standard Hintergrundfarbe */
     --semantic-color-background-subtle: #f0f0f3; /* Hintergrund um Elemente hervozuheben */
@@ -104,87 +108,102 @@
     --semantic-font-family-icon: Font Awesome 6 Sharp; /* Font Awesome - Icon Font*/
 
     /* ICONS */
-   --semantic-icons-add-button: fa-solid fa-plus; /* Add, Hinzufügen, Liste erstellen */
-  --semantic-icons-add-location: fa-solid fa-location-dot; /* Standort hinzufügen (ISIL) */
-  --semantic-icons-arrow-link: fa-solid fa-arrow-right; /* Icon für Links (Navigationselemente) */
-  --semantic-icons-blog: fa-solid fa-rss; /* Blogbeiträge, RSS abonnieren */
-  --semantic-icons-bookmark-off: fa-regular fa-bookmark; /* Lesezeichen - Off */
-  --semantic-icons-bookmark-on: fa-solid fa-bookmark; /* Lesezeichen - On */
-  --semantic-icons-borrowed-items: fa-solid fa-book-open; /* Ausgeliehene Medien */
-  --semantic-icons-calendar-widget: fa-solid fa-calendar-days; /* Kalendar Widget (Xasia) */
-  --semantic-icons-caret-down: fa-solid fa-caret-down; /* Öffnen eines Menüs */
-  --semantic-icons-change-password: fa-solid fa-lock; /* Passwort ändern */
-  --semantic-icons-checkbox-off: fa-regular fa-square; /* Checkbox - Off */
-  --semantic-icons-checkbox-on: fa-regular fa-square-check; /* ausgewählte Option */
-  --semantic-icons-close-button: fa-solid fa-xmark; /* Schließen Kreuz */
-  --semantic-icons-copy-button: fa-solid fa-copy; /* Kopieren */
-  --semantic-icons-dark-mode: fa-regular fa-moon-stars; /* Dark Mode */
-  --semantic-icons-delete: fa-regular fa-trash; /* Löschen (Filter) */
-  --semantic-icons-download-button: fa-solid fa-download; /* Download Button */
-  --semantic-icons-e-mail-adress: fa-solid fa-envelope; /* E-Mail Adresse */
-  --semantic-icons-edit-entry: fa-solid fa-pen-to-square; /* Editieren, Änderungen vornehmen */
-  --semantic-icons-edit-isil: fa-solid fa-file-pen; /* Edit, Änderung an bestehender ISIL vornehmen */
-  --semantic-icons-ext-link: fa-solid fa-arrow-up-right-from-square; /* externe Verlinkung */
-  --semantic-icons-extend-id: fa-solid fa-id-card; /* Ausweis verlängern */
-  --semantic-icons-facebook: fa-brands fa-facebook; /* Facebook Konto */
-  --semantic-icons-favorite-off: fa-regular fa-star; /* Favorisieren - Off */
-  --semantic-icons-favorite-on: fa-solid fa-star; /* Favorisieren - On */
-  --semantic-icons-fax-number: fa-solid fa-fax; /* Faxnummer */
-  --semantic-icons-fees: fa-solid fa-euro-sign; /* Gebühren */
-  --semantic-icons-help: fa-solid fa-circle-question; /* Hilfe-Dokumente oä für einen Service */
-  --semantic-icons-information: fa-solid fa-circle-info; /* */
-  --semantic-icons-instagram: fa-brands fa-instagram; /* Instagram Konto */ 
-  --semantic-icons-lang-settings: fa-solid fa-globe; /* Spracheinstellungen */
-  --semantic-icons-library-acc: fa-solid fa-circle-user; /* Bibliothekskonto */
-  --semantic-icons-light-mode: fa-regular fa-sun-bright; /* Light Mode */
-  --semantic-icons-login-button: fa-solid fa-arrow-right-to-bracket; /* Login */
-  --semantic-icons-logout-button: fa-solid fa-arrow-left-to-bracket; /* Logout */
-  --semantic-icons-mastodon: fa-brands fa-mastodon; /* Mastodon Konto */
-  --semantic-icons-media-book: fa-solid fa-book-open-cover; /* Medientyp Buch */
-  --semantic-icons-media-database: fa-solid fa-database; /* Medientyp Datenbank */
-  --semantic-icons-media-disk: fa-light fa-compact-disc; /* Medientyp Datenträger */
-  --semantic-icons-media-e-book: fa-light fa-tablet; /* Medientyp E-Book */
-  --semantic-icons-media-e-journal: fa-light fa-files; /* Medientyp E-Journal */
-  --semantic-icons-media-essay: fa-light fa-file-lines; /* Medientyp Aufsatz gedruckt */
-  --semantic-icons-media-game: fa-light fa-dice; /* Medientyp Spiel */
-  --semantic-icons-media-image: fa-light fa-image; /* Medientyp Bild */
-  --semantic-icons-media-manuscript: fa-light fa-pen-nib; /* Medientyp Handschrift */
-  --semantic-icons-media-map: fa-light fa-map; /* Medientyp Karte */
-  --semantic-icons-media-microform: fa-light fa-film-canister; /* Medientyp Mikroform */
-  --semantic-icons-media-mixed: fa-light fa-box-archive; /* Medientyp Gemischte Materialien */
-  --semantic-icons-media-movie: fa-light fa-camera-movie; /* Medientyp Film */
-  --semantic-icons-media-musicals: fa-light fa-list-music; /* Medientyp Musikalien */
-  --semantic-icons-media-newspaper: fa-light fa-newspaper; /* Medientyp Zeitung */
-  --semantic-icons-media-online-essay: fa-light fa-laptop-file; /* Medientyp Aufsatz online */
-  --semantic-icons-media-projection: fa-light fa-video; /* Medientyp Projektion */
-  --semantic-icons-media-publications-series: fa-light fa-books; /* Medientyp Schriftenreihe */
-  --semantic-icons-media-publications-volume: fa-duotone fa-solid fa-books; /* Medientyp Band einer Schriftenreihe */
-  --semantic-icons-media-sound: fa-light fa-volume; /* Medientyp Tonaufnahme */
-  --semantic-icons-media-unknown: fa-light fa-crystal-ball; /* Medientyp Unbekannt */
-  --semantic-icons-museums: fa-solid fa-building-columns; /* Museen*/
-  --semantic-icons-next-page: fa-solid fa-angle-right; /* nächste Seite */
-  --semantic-icons-orders:  fa-solid fa-book-bookmark; /* Bestellungen */
-  --semantic-icons-partner-institutions: fa-solid fa-building-columns; /* */
-  --semantic-icons-permalink: fa-solid fa-link; /* Permalink */
-  --semantic-icons-personal-info: fa-solid fa-user; /* Persönliche Daten */
-  --semantic-icons-phone-number: fa-solid fa-phone; /* Telefonnummern */
-  --semantic-icons-plain-lang: fa-solid fa-book-open-reader; /* einfache Sprache */
-  --semantic-icons-prev-page: fa-solid fa-angle-left; /* vorherige Seite */
-  --semantic-icons-print: fa-solid fa-print; /* Drucken */
-  --semantic-icons-quote: fa-solid fa-quote-right; /* Zitieren */
-  --semantic-icons-report-bug: fa-light fa-bug; /* Bug melden */
-  --semantic-icons-search: fa-solid fa-magnifying-glass; /* Icon für Suchleisten */
-  --semantic-icons-settings: fa-solid fa-gear; /* Einstellungen Xasia */
-  --semantic-icons-show-less: fa-solid fa-angle-up; /* Show Less / Weniger Anzeigen */
-  --semantic-icons-show-more: fa-solid fa-angle-down; /* Show More / Mehr anzeigen */
-  --semantic-icons-show-password: fa-light fa-eye; /* Passwort anzeigen */
-  --semantic-icons-sign-lang: fa-solid fa-hands; /* Gebärdensprache */
-  --semantic-icons-twitter: fa-brands fa-x-twitter; /* X/Twitter Konto */
-  --semantic-icons-youtube: fa-brands fa-youtube; /* Youtube Konto */
-  --semantic-icons-type-archive: fa-solid fa-box-archive; /* Typ: Archiv (ISIL) */
-  --semantic-icons-type-dissolved: fa-solid fa-location-xmark; /* Typ: Aufgelöste Einrichtung (ISIL) */
-  --semantic-icons-type-e-ressources: fa-solid fa-display; /* Typ: E-Ressourcen (ISIL) */
-  --semantic-icons-type-library: fa-solid fa-books; /* Typ: Bibliotheken (ISIL) */
-  --semantic-icons-type-misc: fa-solid fa-house-building; /* Typ: Sonstige Einrichtungen (ISIL) */
-  --semantic-icons-warning: fa-solid fa-triangle-exclamation; /* Warnmeldung Konto */
-  }
+    --semantic-icons-add-button: fa-solid fa-plus; /* Add, Hinzufügen, Liste erstellen */
+    --semantic-icons-add-location: fa-solid fa-location-dot; /* Standort hinzufügen (ISIL) */
+    --semantic-icons-arrow-link: fa-solid fa-arrow-right; /* Icon für Links (Navigationselemente) */
+    --semantic-icons-blog: fa-solid fa-rss; /* Blogbeiträge, RSS abonnieren */
+    --semantic-icons-bookmark-off: fa-regular fa-bookmark; /* Lesezeichen - Off */
+    --semantic-icons-bookmark-on: fa-solid fa-bookmark; /* Lesezeichen - On */
+    --semantic-icons-borrowed-items: fa-solid fa-book-open; /* Ausgeliehene Medien */
+    --semantic-icons-calendar-widget: fa-solid fa-calendar-days; /* Kalendar Widget (Xasia) */
+    --semantic-icons-caret-down: fa-solid fa-caret-down; /* Öffnen eines Menüs */
+    --semantic-icons-change-password: fa-solid fa-lock; /* Passwort ändern */
+    --semantic-icons-checkbox-off: fa-regular fa-square; /* Checkbox - Off */
+    --semantic-icons-checkbox-on: fa-regular fa-square-check; /* ausgewählte Option */
+    --semantic-icons-close-button: fa-solid fa-xmark; /* Schließen Kreuz */
+    --semantic-icons-copy-button: fa-solid fa-copy; /* Kopieren */
+    --semantic-icons-dark-mode: fa-regular fa-moon-stars; /* Dark Mode */
+    --semantic-icons-delete: fa-regular fa-trash; /* Löschen (Filter) */
+    --semantic-icons-download-button: fa-solid fa-download; /* Download Button */
+    --semantic-icons-e-mail-adress: fa-solid fa-envelope; /* E-Mail Adresse */
+    --semantic-icons-edit-entry: fa-solid fa-pen-to-square; /* Editieren, Änderungen vornehmen */
+    --semantic-icons-edit-isil: fa-solid fa-file-pen; /* Edit, Änderung an bestehender ISIL vornehmen */
+    --semantic-icons-ext-link: fa-solid fa-arrow-up-right-from-square; /* externe Verlinkung */
+    --semantic-icons-extend-id: fa-solid fa-id-card; /* Ausweis verlängern */
+    --semantic-icons-facebook: fa-brands fa-facebook; /* Facebook Konto */
+    --semantic-icons-favorite-off: fa-regular fa-star; /* Favorisieren - Off */
+    --semantic-icons-favorite-on: fa-solid fa-star; /* Favorisieren - On */
+    --semantic-icons-fax-number: fa-solid fa-fax; /* Faxnummer */
+    --semantic-icons-fees: fa-solid fa-euro-sign; /* Gebühren */
+    --semantic-icons-help: fa-solid fa-circle-question; /* Hilfe-Dokumente oä für einen Service */
+    --semantic-icons-information: fa-solid fa-circle-info; /* */
+    --semantic-icons-instagram: fa-brands fa-instagram; /* Instagram Konto */ 
+    --semantic-icons-lang-settings: fa-solid fa-globe; /* Spracheinstellungen */
+    --semantic-icons-library-acc: fa-solid fa-circle-user; /* Bibliothekskonto */
+    --semantic-icons-light-mode: fa-regular fa-sun-bright; /* Light Mode */
+    --semantic-icons-login-button: fa-solid fa-arrow-right-to-bracket; /* Login */
+    --semantic-icons-logout-button: fa-solid fa-arrow-left-to-bracket; /* Logout */
+    --semantic-icons-mastodon: fa-brands fa-mastodon; /* Mastodon Konto */
+    --semantic-icons-media-book: fa-solid fa-book-open-cover; /* Medientyp Buch */
+    --semantic-icons-media-database: fa-solid fa-database; /* Medientyp Datenbank */
+    --semantic-icons-media-disk: fa-light fa-compact-disc; /* Medientyp Datenträger */
+    --semantic-icons-media-e-book: fa-light fa-tablet; /* Medientyp E-Book */
+    --semantic-icons-media-e-journal: fa-light fa-files; /* Medientyp E-Journal */
+    --semantic-icons-media-essay: fa-light fa-file-lines; /* Medientyp Aufsatz gedruckt */
+    --semantic-icons-media-game: fa-light fa-dice; /* Medientyp Spiel */
+    --semantic-icons-media-image: fa-light fa-image; /* Medientyp Bild */
+    --semantic-icons-media-manuscript: fa-light fa-pen-nib; /* Medientyp Handschrift */
+    --semantic-icons-media-map: fa-light fa-map; /* Medientyp Karte */
+    --semantic-icons-media-microform: fa-light fa-film-canister; /* Medientyp Mikroform */
+    --semantic-icons-media-mixed: fa-light fa-box-archive; /* Medientyp Gemischte Materialien */
+    --semantic-icons-media-movie: fa-light fa-camera-movie; /* Medientyp Film */
+    --semantic-icons-media-musicals: fa-light fa-list-music; /* Medientyp Musikalien */
+    --semantic-icons-media-newspaper: fa-light fa-newspaper; /* Medientyp Zeitung */
+    --semantic-icons-media-online-essay: fa-light fa-laptop-file; /* Medientyp Aufsatz online */
+    --semantic-icons-media-projection: fa-light fa-video; /* Medientyp Projektion */
+    --semantic-icons-media-publications-series: fa-light fa-books; /* Medientyp Schriftenreihe */
+    --semantic-icons-media-publications-volume: fa-duotone fa-solid fa-books; /* Medientyp Band einer Schriftenreihe */
+    --semantic-icons-media-sound: fa-light fa-volume; /* Medientyp Tonaufnahme */
+    --semantic-icons-media-unknown: fa-light fa-crystal-ball; /* Medientyp Unbekannt */
+    --semantic-icons-museums: fa-solid fa-building-columns; /* Museen*/
+    --semantic-icons-next-page: fa-solid fa-angle-right; /* nächste Seite */
+    --semantic-icons-orders:  fa-solid fa-book-bookmark; /* Bestellungen */
+    --semantic-icons-partner-institutions: fa-solid fa-building-columns; /* */
+    --semantic-icons-permalink: fa-solid fa-link; /* Permalink */
+    --semantic-icons-personal-info: fa-solid fa-user; /* Persönliche Daten */
+    --semantic-icons-phone-number: fa-solid fa-phone; /* Telefonnummern */
+    --semantic-icons-plain-lang: fa-solid fa-book-open-reader; /* einfache Sprache */
+    --semantic-icons-prev-page: fa-solid fa-angle-left; /* vorherige Seite */
+    --semantic-icons-print: fa-solid fa-print; /* Drucken */
+    --semantic-icons-quote: fa-solid fa-quote-right; /* Zitieren */
+    --semantic-icons-report-bug: fa-light fa-bug; /* Bug melden */
+    --semantic-icons-search: fa-solid fa-magnifying-glass; /* Icon für Suchleisten */
+    --semantic-icons-settings: fa-solid fa-gear; /* Einstellungen Xasia */
+    --semantic-icons-show-less: fa-solid fa-angle-up; /* Show Less / Weniger Anzeigen */
+    --semantic-icons-show-more: fa-solid fa-angle-down; /* Show More / Mehr anzeigen */
+    --semantic-icons-show-password: fa-light fa-eye; /* Passwort anzeigen */
+    --semantic-icons-sign-lang: fa-solid fa-hands; /* Gebärdensprache */
+    --semantic-icons-twitter: fa-brands fa-x-twitter; /* X/Twitter Konto */
+    --semantic-icons-youtube: fa-brands fa-youtube; /* Youtube Konto */
+    --semantic-icons-type-archive: fa-solid fa-box-archive; /* Typ: Archiv (ISIL) */
+    --semantic-icons-type-dissolved: fa-solid fa-location-xmark; /* Typ: Aufgelöste Einrichtung (ISIL) */
+    --semantic-icons-type-e-ressources: fa-solid fa-display; /* Typ: E-Ressourcen (ISIL) */
+    --semantic-icons-type-library: fa-solid fa-books; /* Typ: Bibliotheken (ISIL) */
+    --semantic-icons-type-misc: fa-solid fa-house-building; /* Typ: Sonstige Einrichtungen (ISIL) */
+    --semantic-icons-warning: fa-solid fa-triangle-exclamation; /* Warnmeldung Konto */
+
+/* --- */
+/* COMPONENT TOKENS */
+/* --- */
+
+    /* LOGOS */
+    --component-logo-brand-padding: 1.5rem; /* 50% der Höhe des Stabi-Logos */
+    --component-logo-brand-height: 3rem; /* Die Höhe des Stabi-Logos für den Header */
+    --component-logo-product-padding: 0.75rem; /* 50% der Höhe des Produkt-Logos */
+    --component-logo-product-height: 1.5rem; /* Die Höhe der Produkt-Logos für den Header */
+    --component-logo-subbrand-padding: 1.25rem; /* 50% der Höhe des Markenlogos */
+    --component-logo-subbrand-height: 2.5rem; /* Die Höhe der Markenlogos den Header */
+
+    /* LISTS */
+    --component-list-space-gap: 0.5rem; /* Der Abstand zwischen Listenelementen */
+}
