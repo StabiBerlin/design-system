@@ -197,11 +197,8 @@
 /* --- */
 
     /* LOGOS */
-    --component-logo-brand-padding: 1.5rem; /* 50% der Höhe des Stabi-Logos */
     --component-logo-brand-height: 3rem; /* Die Höhe des Stabi-Logos für den Header */
-    --component-logo-product-padding: 0.75rem; /* 50% der Höhe des Produkt-Logos */
     --component-logo-product-height: 1.5rem; /* Die Höhe der Produkt-Logos für den Header */
-    --component-logo-subbrand-padding: 1.25rem; /* 50% der Höhe des Markenlogos */
     --component-logo-subbrand-height: 2.5rem; /* Die Höhe der Markenlogos den Header */
 
     /* LISTS */
