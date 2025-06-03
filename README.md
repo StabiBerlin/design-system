@@ -32,7 +32,7 @@ Sie können lokal eingebunden oder über ein CDN integriert werden. Falls zusät
 **1. Einbindung via JSDelivr in das Stylesheet:** Die Datei "tokens.css" kann im Haupt-Stylesheet eingebunden werden:
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/StabiBerlin/design-tokens@v1.2.1/tokens.css");
+@import url("https://cdn.jsdelivr.net/gh/StabiBerlin/design-tokens@v1.3.1/tokens.css");
 ```
 
 **2. Einbindung via JSDelivr in das Markup:** Die Datei "tokens.css" kann im Markup eingebunden werden:
@@ -40,7 +40,7 @@ Sie können lokal eingebunden oder über ein CDN integriert werden. Falls zusät
 ```html
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/StabiBerlin/design-tokens@v1.2.1/tokens.css"
+  href="https://cdn.jsdelivr.net/gh/StabiBerlin/design-tokens@v1.3.1/tokens.css"
 />
 ```
 
