@@ -203,4 +203,11 @@
 
     /* LISTS */
     --component-list-space-gap: 0.5rem; /* Der Abstand zwischen Listenelementen */
+
+    /* FOCUS STATES */
+    --component-focus-visible-outline-width: 0.25rem;
+    --component-focus-visible-shadow-blur: 0rem;
+    --component-focus-visible-shadow-x: 0rem;
+    --component-focus-visible-shadow-y: 0rem;
+    --component-focus-visible-shadow-spread: 0.375rem;
 }
