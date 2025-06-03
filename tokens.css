@@ -200,7 +200,6 @@
     --component-logo-brand-height: 3rem; /* Die Höhe des Stabi-Logos für den Header */
     --component-logo-product-height: 1.5rem; /* Die Höhe der Produkt-Logos für den Header */
     --component-logo-subbrand-height: 2.5rem; /* Die Höhe der Markenlogos den Header */
-    --component-logo-padding: 1.25rem; /* ⚠️ DEPRECATED: Wird in der nächsten Version entfernt */
 
     /* LISTS */
     --component-list-space-gap: 0.5rem; /* Der Abstand zwischen Listenelementen */
