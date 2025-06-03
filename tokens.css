@@ -74,9 +74,9 @@
     --semantic-font-size-display: 4rem; /* 64px - für herausragende Überschriften in Hero-Bannern oder prominenten Titelseiten */
 
     /* FONT WEIGHTS */
-    --semantic-font-weight-bold: bold; /* Hauptüberschriften oder besonders wichtige Inhalte, die sich stark vom restlichen Text abheben sollen*/
-    --semantic-font-weight-regular: normal; /* Fließtext oder längere Textabschnitte, die gut lesbar und nicht zu schwer wirken sollen. */
-    --semantic-font-weight-semi-bold: semi-bold; /* Button-Labels oder UI-Elemente, die hervorgehoben, aber nicht dominant sein sollen */
+    --semantic-font-weight-bold: 700; /* Hauptüberschriften oder besonders wichtige Inhalte, die sich stark vom restlichen Text abheben sollen*/
+    --semantic-font-weight-regular: 400; /* Fließtext oder längere Textabschnitte, die gut lesbar und nicht zu schwer wirken sollen. */
+    --semantic-font-weight-semi-bold: 600; /* Button-Labels oder UI-Elemente, die hervorgehoben, aber nicht dominant sein sollen */
 
     /* LINE HEIGHTS */
     --semantic-line-height-tight: 0.0781rem; /* Verwende für Überschriften oder kurze Textelemente, bei denen der Text kompakt und dicht wirken soll, um den Platz effizient zu nutzen. */
