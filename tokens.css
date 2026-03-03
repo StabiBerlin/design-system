@@ -1,3 +1,7 @@
+/* --- */
+/* IMPORTANT: DO NOT REMOVE. Required for font rendering in the design system. */
+/* --- */
+@import url(../design-system/src/fonts/fonts.css);
 
 :root {
 /* --- */
