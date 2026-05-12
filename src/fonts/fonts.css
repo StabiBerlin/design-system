@@ -1,122 +1,17 @@
 /* FONT AWESOME CSS FILES */
-@import url('./font-awesome/fontawesome.min.css');
-@import url('./font-awesome/solid.min.css');
-@import url('./font-awesome/regular.min.css');
-@import url('./font-awesome/brands.min.css');
-@import url('./font-awesome/light.min.css');
-@import url('./font-awesome/thin.min.css');
-@import url('./font-awesome/duotone.min.css');
-@import url('./font-awesome/sharp-solid.min.css');
-@import url('./font-awesome/sharp-light.min.css');
-@import url('./font-awesome/sharp-regular.min.css');
-@import url('./font-awesome/sharp-thin.min.css');
-@import url('./font-awesome/v4-font-face.min.css');
-@import url('./font-awesome/v5-font-face.min.css');
-/* Font AWESOME FONTS */
-/* Font Awesome Brands */
-@font-face {
-    font-family: 'Font Awesome 6 Brands';
-    font-style: normal;
-    font-weight: 400;
-    src: url('./font-awesome/fa-brands-400.woff2') format('woff2'),
-        url('./font-awesome/fa-brands-400.ttf') format('truetype');
-    font-display: swap;
-}
-
-/* Font Awesome Duotone */
-@font-face {
-    font-family: 'Font Awesome 6 Duotone';
-    font-style: normal;
-    font-weight: 300;
-    src: url('./font-awesome/fa-duotone-light-300.woff2') format('woff2'),
-        url('./font-awesome/fa-duotone-light-300.ttf') format('truetype');
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Font Awesome 6 Duotone';
-    font-style: normal;
-    font-weight: 400;
-    src: url('./font-awesome/fa-duotone-regular-400.woff2') format('woff2'),
-        url('./font-awesome/fa-duotone-regular-400.ttf') format('truetype');
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Font Awesome 6 Duotone';
-    font-style: normal;
-    font-weight: 900;
-    src: url('./font-awesome/fa-duotone-900.woff2') format('woff2'),
-        url('./font-awesome/fa-duotone-900.ttf') format('truetype');
-    font-display: swap;
-}
-
-/* Font Awesome Solid */
-@font-face {
-    font-family: 'Font Awesome 6 Solid';
-    font-style: normal;
-    font-weight: 900;
-    src: url('./font-awesome/fa-solid-900.woff2') format('woff2'),
-        url('./font-awesome/fa-solid-900.ttf') format('truetype');
-    font-display: swap;
-}
-
-/* Font Awesome Thin */
-@font-face {
-    font-family: 'Font Awesome 6 Thin';
-    font-style: normal;
-    font-weight: 100;
-    src: url('./font-awesome/fa-thin-100.woff2') format('woff2'),
-        url('./font-awesome/fa-thin-100.ttf') format('truetype');
-    font-display: swap;
-}
-
-/* Font Awesome Regular */
-@font-face {
-    font-family: 'Font Awesome 6 Regular';
-    font-style: normal;
-    font-weight: 400;
-    src: url('./font-awesome/fa-regular-400.woff2') format('woff2'),
-        url('./font-awesome/fa-regular-400.ttf') format('truetype');
-    font-display: swap;
-}
-
-/* Font Awesome Sharp */
-@font-face {
-    font-family: 'Font Awesome 6 Sharp';
-    font-style: normal;
-    font-weight: 100;
-    src: url('./font-awesome/fa-sharp-thin-100.woff2') format('woff2'),
-        url('./font-awesome/fa-sharp-thin-100.ttf') format('truetype');
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Font Awesome 6 Sharp';
-    font-style: normal;
-    font-weight: 300;
-    src: url('./font-awesome/fa-sharp-light-300.woff2') format('woff2'),
-        url('./font-awesome/fa-sharp-light-300.ttf') format('truetype');
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Font Awesome 6 Sharp';
-    font-style: normal;
-    font-weight: 400;
-    src: url('./font-awesome/fa-sharp-regular-400.woff2') format('woff2'),
-        url('./font-awesome/fa-sharp-regular-400.ttf') format('truetype');
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Font Awesome 6 Sharp';
-    font-style: normal;
-    font-weight: 900;
-    src: url('./font-awesome/fa-sharp-solid-900.woff2') format('woff2'),
-        url('./font-awesome/fa-sharp-solid-900.ttf') format('truetype');
-    font-display: swap;
-}
+@import url('./font-awesome/css/fontawesome.min.css');
+@import url('./font-awesome/css/solid.min.css');
+@import url('./font-awesome/css/regular.min.css');
+@import url('./font-awesome/css/brands.min.css');
+@import url('./font-awesome/css/light.min.css');
+@import url('./font-awesome/css/thin.min.css');
+@import url('./font-awesome/css/duotone.min.css');
+@import url('./font-awesome/css/sharp-solid.min.css');
+@import url('./font-awesome/css/sharp-light.min.css');
+@import url('./font-awesome/css/sharp-regular.min.css');
+@import url('./font-awesome/css/sharp-thin.min.css');
+@import url('./font-awesome/css/v4-font-face.min.css');
+@import url('./font-awesome/css/v5-font-face.min.css');
 
 /* NOTO SANS */
 /* noto-sans-regular */
