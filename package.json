@@ -2,7 +2,7 @@
   "name": "design-system",
   "private": true,
   "scripts": {
-    "build:css": "postcss tokens.css -o dist/tokens.css"
+    "build:css": "node build.mjs"
   },
   "devDependencies": {
     "cssnano": "^8.0.1",
