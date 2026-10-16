@@ -20,7 +20,8 @@
     --semantic-color-background-olive-base: #696c22; /* Standard Hintergrundfarbe */
     --semantic-color-background-olive-subtle: #cfce35; /* Hintergrund um Elemente hervozuheben */
     --semantic-color-feedback-danger-base: #d20a11; /* Gefahr - Default */
-    --semantic-color-feedback-sucess-base: #2e8540; /* Erfolg - Default */
+    --semantic-color-feedback-success-base: #2e8540; /* Erfolg - Default */
+    --semantic-color-feedback-sucess-base: var(--semantic-color-feedback-success-base); /* Alias für Rückwärtskompatibilität */
     --semantic-color-feedback-warning-base: #efcd00; /* Warnung - Default */
     --semantic-color-interactive-base: #2b4474; /* Interaktionsfarbe - Default */
     --semantic-color-interactive-disabled: #9ca3b0; /* Interaktionsfarbe - disabled State */ 
@@ -129,7 +130,8 @@
     --semantic-icons-dark-mode: fa-regular fa-moon-stars; /* Dark Mode */
     --semantic-icons-delete: fa-regular fa-trash; /* Löschen (Filter) */
     --semantic-icons-download-button: fa-solid fa-download; /* Download Button */
-    --semantic-icons-e-mail-adress: fa-solid fa-envelope; /* E-Mail Adresse */
+    --semantic-icons-e-mail-address: fa-solid fa-envelope; /* E-Mail Adresse */
+    --semantic-icons-e-mail-adress: var(--semantic-icons-e-mail-address); /* Alias für Rückwärtskompatibilität */
     --semantic-icons-edit-entry: fa-solid fa-pen-to-square; /* Editieren, Änderungen vornehmen */
     --semantic-icons-edit-isil: fa-solid fa-file-pen; /* Edit, Änderung an bestehender ISIL vornehmen */
     --semantic-icons-ext-link: fa-solid fa-arrow-up-right-from-square; /* externe Verlinkung */
@@ -191,7 +193,8 @@
     --semantic-icons-youtube: fa-brands fa-youtube; /* Youtube Konto */
     --semantic-icons-type-archive: fa-solid fa-box-archive; /* Typ: Archiv (ISIL) */
     --semantic-icons-type-dissolved: fa-solid fa-location-xmark; /* Typ: Aufgelöste Einrichtung (ISIL) */
-    --semantic-icons-type-e-ressources: fa-solid fa-display; /* Typ: E-Ressourcen (ISIL) */
+    --semantic-icons-type-e-resources: fa-solid fa-display; /* Typ: E-Ressourcen (ISIL) */
+    --semantic-icons-type-e-ressources: var(--semantic-icons-type-e-resources); /* Alias für Rückwärtskompatibilität */
     --semantic-icons-type-library: fa-solid fa-books; /* Typ: Bibliotheken (ISIL) */
     --semantic-icons-type-misc: fa-solid fa-house-building; /* Typ: Sonstige Einrichtungen (ISIL) */
     --semantic-icons-warning: fa-solid fa-triangle-exclamation; /* Warnmeldung Konto */
